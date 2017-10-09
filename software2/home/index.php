@@ -437,124 +437,8 @@
 					<span class="part-title-span">团队人才</span>
 					<p>TEAM</p>
 				</div>
-			</div>
-		</div>		
-<div id="category_top" style="background-image: url(images/zlbg.png);">
-    <div class="am-hide-lg-only kz" id="leftbtn">
-        <i class="am-icon-angle-left" ></i>
-    </div>
-    <div class="am-hide-lg-only kz" style="right:0px;" id="rightbtn">
-        <i class="am-icon-angle-right"></i>
-    </div>
-    <div class="am-container" >
-        <ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-6 am-thumbnails" id="topface">
-            <li>
-                <a href="#">
-                <div class="ctl">
-                    <img src="images/face1.jpg">
-                    <h3>王红</h3>
-                    <p>教授</p>
-                </div>
-                <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                <div class="ctl">
-                     <img src="images/face1.jpg">
-                    <h3>王红天</h3>
-                    <p>教授</p>
-                </div>
-                <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="ctl">
-                    <img src="images/face1.jpg">
-                    <h3>王红天</h3>
-                    <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="ctl">
-                    <img src="images/face1.jpg">
-                    <h3>王红天</h3>
-                    <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="ctl">
-                    <img src="images/face1.jpg">
-                    <h3>王红天</h3>
-                    <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
-            </li>
-            <li>
-                <a href="#">
-                    <div class="ctl">
-                    <img src="images/face1.jpg">
-                    <h3>王红天</h3>
-                    <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
-            </li>
-        </ul>
 
-    </div>
-
-</div>
-<script>
-    var countnum=5 //一共多少个图 例如6个请输入5
-    $("#leftbtn").click(function(){
-        var temp_href=$("#topface li:eq(0) a").attr("href");
-        var temp_img=$("#topface li:eq(0) img").attr("src");
-        var temp_h3=$("#topface li:eq(0) h3").html();
-        var temp_p=$("#topface li:eq(0) p").html();
-
-        for (i=0; i<countnum; i++){
-            var n=i+1;
-            $("#topface li:eq("+i+") a").attr('href',$("#topface li:eq("+n+") a").attr("href"));
-            $("#topface li:eq("+i+") img").attr('src',$("#topface li:eq("+n+") img").attr("src"));
-            $("#topface li:eq("+i+") h3").html($("#topface li:eq("+n+") h3").html());
-            $("#topface li:eq("+i+") p").html($("#topface li:eq("+n+") p").html());
-        };
-        $("#topface li:eq("+countnum+") a").attr('href',temp_href);
-        $("#topface li:eq("+countnum+") img").attr('src',temp_img);
-        $("#topface li:eq("+countnum+") h3").html(temp_h3);
-        $("#topface li:eq("+countnum+") p").html(temp_p);
-    });
-    $("#rightbtn").click(function(){
-        var temp_href=$("#topface li:eq("+countnum+") a").attr("href");
-        var temp_img=$("#topface li:eq("+countnum+") img").attr("src");
-        var temp_h3=$("#topface li:eq("+countnum+") h3").html();
-        var temp_p=$("#topface li:eq("+countnum+") p").html();
-
-        for (i=countnum; i>0; i--){
-            var n=i-1;
-            $("#topface li:eq("+i+") a").attr('href',$("#topface li:eq("+n+") a").attr("href"));
-            $("#topface li:eq("+i+") img").attr('src',$("#topface li:eq("+n+") img").attr("src"));
-            $("#topface li:eq("+i+") h3").html($("#topface li:eq("+n+") h3").html());
-            $("#topface li:eq("+i+") p").html($("#topface li:eq("+n+") p").html());
-        };
-        $("#topface li:eq(0) a").attr('href',temp_href);
-        $("#topface li:eq(0) img").attr('src',temp_img);
-        $("#topface li:eq(0) h3").html(temp_h3);
-        $("#topface li:eq(0) p").html(temp_p);
-    });
-</script>
-<script src="js/public.js"></script>
-
-				<!--<div class="am-slider am-slider-default am-slider-carousel part-all" data-am-flexslider="{itemWidth:150, itemMargin: 5, slideshow: false}" style="  background-color: #f0eeed; box-shadow:none;">
+				<div class="am-slider am-slider-default am-slider-carousel part-all" data-am-flexslider="{itemWidth:150, itemMargin: 5, slideshow: false}" style="  background-color: #f0eeed; box-shadow:none;">
 					<ul class="am-slides">
 						<li><img src="img/ptn4.png" /></li>
 						<li><img src="img/ptn5.png" /></li>
@@ -567,7 +451,7 @@
 						<li><img src="img/ptn7.png" /></li>
 						<li><img src="img/ptn8.png" /></li>
 					</ul>
-				</div>-->
+				</div>
 				<!--<ul class="customer-content">
 			<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="img/ptn4.png"/></div></li>
 			<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="img/ptn5.png"/></div></li>
@@ -582,7 +466,7 @@
 		
 		
 		
-		<!--<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-thumbnails">
+		<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-thumbnails">
 		  <li>
 		  	<img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" />
 		  	
@@ -594,7 +478,7 @@
 		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" /></li>
 		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" /></li>
 		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" /></li>
-		</ul>-->
+		</ul>
 		
 		
 		

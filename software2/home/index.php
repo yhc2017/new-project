@@ -1,3 +1,4 @@
+<?php include "../public/conn.php";?>
 <!DOCTYPE html>
 <html>
 
@@ -9,141 +10,70 @@
 		<meta name="format-detection" content="telephone=no">
 		<meta name="renderer" content="webkit">
 		<meta http-equiv="Cache-Control" content="no-siteapp" />
-		<link rel="stylesheet" href="css/bootstrap.css" />
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
         <script type="text/javascript" src="../public/jquery-3.1.1.js"></script>
 		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script src="js/lib.js"></script>
 		<link rel="alternate icon" type="img/hengwang-1.png" href="img/hengwang-1.png">
 		<link rel="stylesheet" href="css/amazeui.css" />
 		<link rel="stylesheet" href="css/style.css" />
 	</head>
+
 	<body>
-		<!-- 顶部的log区域  -->
-	<header class="container-fluid container-top">
-		<div class="logo tc"><a href="http://www.bigdata-research.org/"><img src="images/logo.png"/></a></div>
-	 
-	  <!-- Brand and toggle get grouped for better mobile display 小屏幕时候回变成的菜单的组件配置-->
-      <span class="container navbar-header">
-       <button type="button" class="navbar-toggle visible-md-block visible-sm-block visible-xs-block" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <!-- sr-only保证屏幕阅读器正确读取且不会影响 UI 的视觉呈现 -->
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>	
-      </span>
-	</header>
-		<!-- 导航条 -->
-		<header>
-		<nav id="nv" class="navbar navbar-default  visible-lg"  >
-  <div class="container" >
-    <!-- Collect the nav links, forms, and other content for toggling  小屏幕时候会变成菜单 -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 " >
-    	<ul>
-            <li style="border-bottom: 4px solid #8c0000;"><a href="#">网站首页</a></li>               
-            <li><a href="#">中心概况</a></li>
-            <li><a href="#">新闻公告</a></li>
-            <li><a href="#">科学研究</a></li>
-            <li><a href="#">人才队伍</a></li>
-            <li><a href="#">认证培训</a></li>
-            <li><a href="#">研究实体</a></li>
-        </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-
-
-<div class="nv-smenu container-fluid" >
-                <div class="container">
-                    <dl>
-                        <dd><img src="images/6.jpg"style="margin-left: auto; margin-top:10px;width: 180px;height: 150px;border: 1px solid #8C0000;"></dd>
-                    </dl>
-                    <dl style="margin-left: 20px;">
-                    	<dd><a href="#">中心介绍</a></dd>
-                    	<dd><a href="#">宗旨目标</a></dd>
-                    	<dd><a href="#">组织架构</a></dd>
-                    	<dd><a href="#">重要成果</a></dd>
-                    </dl>
-					<dl style="margin-left: 75px;">
-                        <dd><a href="#">媒体报道</a></dd>
-                        <dd><a href="#">简报摘要</a></dd>
-                        <dd><a href="#">公告通知</a></dd>
-                    </dl>
-					<dl style="margin-left: 80px;">
-                    	<dd><a href="#">研究成果</a></dd>
-                        <dd><a href="#">开放基金</a></dd>
-                        <dd><a href="#">学术资源</a></dd>
-                        <dd><a href="#">大数据竞赛</a></dd>
-                    </dl>
-					<dl style="margin-left: 80px;">
-                        <dd><a href="#">两院院士</a></dd>
-                        <dd><a href="#">杰出人才</a></dd>
-                        <dd><a href="#">优秀人才</a></dd>
-                        <dd><a href="#">梯队人才</a></dd>
-                        <dd><a href="#">招纳贤士</a></dd>
-                    </dl>
-					<dl style="margin-left: 50px;">
-                        <dd><a href="#">数据工程师认证</a></dd>
-                        <dd><a href="#">资格认证查询</a></dd>
-                        <dd><a href="#">EMBA培训</a></dd>
-                        <dd><a href="#">EDP培训</a></dd>
-                        <dd><a href="#">浩格英泰培训认证</a></dd>
-                    </dl>
-					<dl style="margin-left: 18px;">
-                    	<dd><a href="#">安全大数据研究所</a></dd>
-                        <dd><a href="#">健康大数据研究中心</a></dd>
-                        <dd><a href="#">教育大数据研究所</a></dd>
-                        <dd><a href="#">移动大数据研究所</a></dd>
-                        <dd><a href="#">大数据挖掘与推理研究所</a></dd>
-                        <dd><a href="#">遥感大数据研究所</a></dd>
-                    </dl>
+		<header class="am-topbar header">
+			<div class="am-container-1">
+				<div class="left hw-logo">
+					<img class=" logo" src="img/logo.png">
 				</div>
-           </div>
-           </nav>
-  		<!-- -->
-		</header>
-				<section class="container-fluid rollphoto" style="background: #0055AA;height: 500px;">
-            		
-			
-			<!--这是一个酷炫版的幻灯片-->
-				<div  class="content" style="background: #0000CC;height: 500px;">
-				<div id="slider">
-					<a href="#"><img src="images/20141112085453727.jpg"/></a>
-					<a href="#"><img src="images/20141113053033429.jpg"/></a>
-					<a href="#"><img src="images/t5.jpg"/></a>
-					<a href="#"><img src="images/t1.jpg"/></a>
-					<a href="#"><img src="images/t2.jpg"/></a>
-					<a href="#"><img src="images/t3.jpg"/></a>
+				<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
+      class="am-icon-bars"></span></button>
+
+				<div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+
+					<div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
+						<ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
+							<li class="hw-menu-active">
+								<a href="index.php">首页</a>
+							</li>
+							<li>
+								<a href="solutions.html">中心概况</a>
+							</li>
+							<li>
+								<a href="product-show.html">新闻公告 </a>
+							</li>
+							<li>
+								<a href="customer-case.html">人才队伍</a>
+							</li>
+							<li>
+								<a href="service-center.html">认证培训 </a>
+							</li>
+							<li>
+								<a href="news.html">研究实体 </a>
+							</li>
+							<li>
+								<a href="about-us.html">关于我们</a>
+							</li>
+							<li><a href="../admin/login.php">后台入口 </a></li>
+						</ul>
+					</div>
+
 				</div>
 			</div>
-		</div> 
-	<script type="text/javascript" src="js/vmc.slider.full.min.js"></script>
-	<script type="text/javascript">
-		
-		$(function() {
-			$('#slider').vmcSlider({
-				width: 1800,
-				height: 500,
-				gridCol: 10,
-				gridRow: 5,
-				gridVertical: 20,
-				gridHorizontal: 10,
-				autoPlay: true,
-				ascending: true,
-				effects: [
-					'fade', 'fadeLeft', 'fadeRight', 'fadeTop', 'fadeBottom', 'fadeTopLeft', 'fadeBottomRight',
-					'blindsLeft', 'blindsRight', 'blindsTop', 'blindsBottom', 'blindsTopLeft', 'blindsBottomRight',
-					'curtainLeft', 'curtainRight', 'interlaceLeft', 'interlaceRight', 'mosaic', 'bomb', 'fumes'
-				],
-				ie6Tidy: false,
-				random: false,
-				duration: 2000,
-				speed: 900
-			});
-		});
-	</script>
-		</section>
-
-		<div class="container-fluid">
+		</header>
+		<div class="rollpic">
+			<div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}'>
+				<ul class="am-slides">
+					<li>
+						<img src="img/1.png" />
+						<div class="am-slider-desc">Big World,Small Data</div>
+					</li>
+					<li>
+						<img src="img/2.png" />
+						<div class="am-slider-desc">Big World,Small Data</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="am-container-1">
 			<div class="solutions part-all">
 				<div class="part-title">
 					<a href="solutions.html">
@@ -471,6 +401,25 @@
 		</ul>-->
 			</div>
 		</div>
+		
+		
+		
+		<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-thumbnails">
+		  <li>
+		  	<img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" />
+		  	
+		  </li>
+		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" /></li>
+		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" /></li>
+		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" /></li>
+		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" /></li>
+		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" /></li>
+		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" /></li>
+		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" /></li>
+		</ul>
+		
+		
+		
 		<footer class="footer ">
 
 			<ul>
@@ -531,6 +480,8 @@
 <!--<script src="assets/js/amazeui.ie8polyfill.min.js"></script>-->
 <![endif]-->
 
+	<!--[if (gte IE 9)|!(IE)]><!-->
+	<script src="js/jquery.min.js"></script>
     <!--<![endif]-->
     <script src="js/amazeui.min.js"></script>
     <script src="js/scroll.js"></script>

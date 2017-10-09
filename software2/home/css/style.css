@@ -2256,3 +2256,16 @@ i.am-icon-tasks{ display: none;}
 .rollphoto{
 	text-align: center;
 }
+/*后台登录*/
+.enter{
+background: #7c0000;
+width: 200px;
+float: right;
+margin-right: 50px;
+font-size: 15pt;
+font-weight: bold;
+color: #000000;
+}
+.enter a:hover{
+	color: #FFFFFF;
+	}

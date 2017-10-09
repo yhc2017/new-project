@@ -106,7 +106,7 @@
 <!--新闻详细显示板块end-->
 <article class="am-article">
 	<div class="am-article-bd">
-		<p id="showdetail"></p>
+		<p style="margin-left: 6%; margin-right: 6%;" id="showdetail"></p>
 	</div>
 </article>
 		

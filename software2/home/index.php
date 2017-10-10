@@ -321,7 +321,7 @@
 
 					<div class="news-content ">
 
-						<div class="panel panel-default table-responsive center-block" style="background: #398439; height: 300px;">
+						<div class="panel panel-default table-responsive center-block" style="height: 300px;">
 							<table class="table table-striped table-bordered table-hover gpleft_table">
 								<tbody>
 									<tr class="active">
@@ -348,11 +348,13 @@
                                     $res["a_id"];
                                     $res["a_time"];
                                     ?>
-
+									
+									
+									
                                     <tr class="active">
                                         <td><?php echo $res["a_id"] ?></td>
                                         <td>
-                                            <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
+                                            <a href="news_info.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
                                         </td>
                                         <td><?php echo $res["a_time"] ?></td>
                                     </tr>

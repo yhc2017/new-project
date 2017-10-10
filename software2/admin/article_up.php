@@ -51,14 +51,27 @@
     var ue = UE.getEditor('editor');
 
     function getContent() {
-        var arr = [];
-        arr.push("使用editor.getContent()方法可以获得编辑器的内容");
-        arr.push("内容为：");
-        var jj = UE.getEditor('editor').getContent();
-        var kk = document.getElementById("titleid").value;
-        $.post("article_up_help.php",{content:jj,title:kk},function(data){
-            alert("Data Loaded: " + data);
-        });
+//        var arr = [];
+//        arr.push("使用editor.getContent()方法可以获得编辑器的内容");
+//        arr.push("内容为：");
+//        var jj = UE.getEditor('editor').getContent();
+//        var kk = document.getElementById("titleid").value;
+//        $.post("article_up_help.php",{content:jj,title:kk},function(data){
+//            alert("Data Loaded: " + data);
+//        });
+
+//        var jj = UE.getEditor('editor').getContent();
+//        var kk = document.getElementById("titleid").value;
+//        var url = "article_up_help.php";
+//        $.ajax({
+//            url : url,
+//            data : "content=jj&title=kk",
+//            processData : false,
+//            contentType : false,
+//            dataType: 'json',
+//            type : "POST",
+//            success : function(data){alert(data)}
+//        });
     }
     function preview() {
         var arr = [];

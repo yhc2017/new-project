@@ -118,8 +118,7 @@
 				</div>
            </section>
            </nav>
-  		<!-- -->
-		</header>
+        </header>
 		</section>     
 		<div class="rollpic">
 			<div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{}'>
@@ -164,12 +163,6 @@
 						<!--<span class="solutions-title">网站、移动网站</span>-->
 						<p class="solutions-way">定位为连接政府、企业、高校、研究院所、资本和 创业型企业的纽带和中枢，致力建设成为在学科、学术、技术、产业、机制五方面均在国内具有引领地位的大型创新平台。</p>
 					</li>
-					<!--<li class="am-u-sm-6 am-u-md-3 am-u-lg-4">
-						<i class="am-icon-hacker-news solution-circle"></i>
-						<span class="solutions-title">网站、移动网站</span>
-						<p class="solutions-way">网站、移动网站微信公众号开发移动网站微信公众号开发,解决方案</p>
-					</li>-->
-
 				</ul>
 
 			</div>
@@ -332,14 +325,6 @@
 										</thead>
 									</tr>
 
-<!--									<tr class="active">-->
-<!--										<td>1</td>-->
-<!--										<td>-->
-<!--											<a href="gonggao.jsp?id=514">大数据信息应用与开发方向专业介绍</a>-->
-<!--										</td>-->
-<!--										<td>2017-10-06</td>-->
-<!--									</tr>-->
-
                                 <?php
                                 $sql = mysqli_query($conn,"select * from article;");
 
@@ -348,9 +333,6 @@
                                     $res["a_id"];
                                     $res["a_time"];
                                     ?>
-									
-									
-									
                                     <tr class="active">
                                         <td><?php echo $res["a_id"] ?></td>
                                         <td>
@@ -358,80 +340,20 @@
                                         </td>
                                         <td><?php echo $res["a_time"] ?></td>
                                     </tr>
-
-
-<!--                                    <li><a href="article_detail.php?id=--><?php //echo $res["a_id"] ?><!--" onclick="showdetail(this)" id="--><?php //echo $res["a_id"] ?><!--">--><?php //echo $res["a_title"] ?><!--</a></li>-->
-                                    <?php
+									<?php
                                 }
                                 ?>
-
 
 								</tbody>
 							</table>
 						</div>
 
-						<!--<ul class="news-content-ul">
-							<li class="am-u-sm-12 am-u-md-6 am-u-lg-6">
-								<a href="#">
-									<div class=" am-u-sm-12 am-u-md-12 am-u-lg-5">
-										<div class="news-img">
-											<img src="img/news.png"></img>
-										</div>
-									</div>
-									<div class=" am-u-sm-12 am-u-md-12 am-u-lg-7">
-										<span class="news-right-title">关于召开年会的通知</span>
-										<p class="news-right-time">2015-06-11</p>
-										<p class="news-right-words">互联网，又称网际网路或音译因特网、英特网，是网络与网络之间所串连成的庞大网络网络与网络之...</p>
-										<a><span class="see-more2">查看更多<i class="am-icon-angle-double-right"></i></span></a>
-									</div>
-									<div class="clear"></div>
-								</a>
-							</li>
-							<li class="am-u-sm-12 am-u-md-6 am-u-lg-6">
-								<a href="#">
-									<div class=" am-u-sm-12 am-u-md-12 am-u-lg-5">
-										<div class="news-img">
-											<img src="img/news1.png"></img>
-										</div>
-									</div>
-									<div class=" am-u-sm-12 am-u-md-12 am-u-lg-7">
-										<span class="news-right-title">关于召开年会的通知</span>
-										<p class="news-right-time">2015-06-11</p>
-										<p class="news-right-words">互联网，又称网际网路或音译因特网、英特网，是网络与网络之间所串连成的庞大网络网络与网络之...</p>
-										<a><span class="see-more2">查看更多<i class="am-icon-angle-double-right"></i></span></a>
-									</div>
-									<div class="clear"></div>
-								</a>
-							</li>
-							<div class="clear"></div>
-						</ul>
-						<div class="clear"></div>-->
 					</div>
 
 				</div>
 			</div>
 		</div>
-		<!--<div class="three-reason">
-			<div class="part-title three-reason-title">
-			<span class="part-title-span w-white">选择恒望的三大理由</span>
-			<p class="w-white">Why Choose Hengwang</p>
-			
-		</div>
-			<ul class="am-g part-content three-reason-content">
-			  <li class="am-u-sm-4 am-u-md-4 am-u-lg-4">
-			  	<div class="three-reason-img1 "></div>
-			  	<p class="reason-title w-white">规模优势<br/>Scale advantage</p>
-			  </li>
-			  <li class="am-u-sm-4 am-u-md-4 am-u-lg-4">
-			  	<div class="three-reason-img2 "></div>
-			  	<p class="reason-title w-white ">领先技术<br/>Leading technology</p>
-			  </li>
-			  <li class="am-u-sm-4 am-u-md-4 am-u-lg-4">
-			  	<div class="three-reason-img3 "></div>
-			  	<p class="reason-title w-white">整合能力<br/>Integration capability</p>
-			  </li>
-		</ul>
-		</div>-->
+
 		<div class="part-all gray-li">
 			<div class="customer  am-container-1">
 				<div class="part-title">
@@ -556,50 +478,6 @@
 </script>
 <script src="js/public.js"></script>
 
-				<!--<div class="am-slider am-slider-default am-slider-carousel part-all" data-am-flexslider="{itemWidth:150, itemMargin: 5, slideshow: false}" style="  background-color: #f0eeed; box-shadow:none;">
-					<ul class="am-slides">
-						<li><img src="img/ptn4.png" /></li>
-						<li><img src="img/ptn5.png" /></li>
-						<li><img src="img/ptn6.png" /></li>
-						<li><img src="img/ptn7.png" /></li>
-						<li><img src="img/ptn8.png" /></li>
-						<li><img src="img/ptn4.png" /></li>
-						<li><img src="img/ptn5.png" /></li>
-						<li><img src="img/ptn6.png" /></li>
-						<li><img src="img/ptn7.png" /></li>
-						<li><img src="img/ptn8.png" /></li>
-					</ul>
-				</div>-->
-				<!--<ul class="customer-content">
-			<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="img/ptn4.png"/></div></li>
-			<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="img/ptn5.png"/></div></li>
-			<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="img/ptn6.png"/></div></li>
-			<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="img/ptn7.png"/></div></li>
-			<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="img/ptn8.png"/></div></li>
-			<li class="am-u-sm-6 am-u-md-4 am-u-lg-2"><div><img src="img/ptn4.png"/></div></li>
-			<div class="clear"></div>
-		</ul>-->
-			</div>
-		</div>
-		
-		
-		
-		<!--<ul class="am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-thumbnails">
-		  <li>
-		  	<img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" />
-		  	
-		  </li>
-		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" /></li>
-		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" /></li>
-		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" /></li>
-		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-1.jpg" /></li>
-		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-2.jpg" /></li>
-		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-3.jpg" /></li>
-		  <li><img class="am-thumbnail" src="http://s.amazeui.org/media/i/demos/bing-4.jpg" /></li>
-		</ul>-->
-		
-		
-		
 		<footer class="footer ">
 
 			<ul>
@@ -654,15 +532,7 @@
             }
         </script>
 	</body>
-	<!--[if lt IE 9]>
-<!--<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>-->
-<!--<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>-->
-<!--<script src="assets/js/amazeui.ie8polyfill.min.js"></script>-->
-<![endif]-->
-
-	<!--[if (gte IE 9)|!(IE)]><!-->
 	<script src="js/jquery.min.js"></script>
-    <!--<![endif]-->
     <script src="js/amazeui.min.js"></script>
     <script src="js/scroll.js"></script>
     <script type="text/javascript">

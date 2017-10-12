@@ -1,12 +1,11 @@
 <?php
         include "../public/conn.php";
         $a_id = $_GET['id'];
-        $sql = mysqli_query($conn, "select a_id, a_time, a_title from article where a_id = $a_id;");
+        $sql = mysqli_query($conn, "select a_title, a_time from article where a_id = $a_id;");
         $res = mysqli_fetch_array($sql);
-        $content = $res["a_id"].".txt";
-//        echo "var detailUrl = \"../public/article/$content\";";
-
+        $content = $res["a_title"].".txt";
 ?>
+
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -18,7 +17,7 @@
   <meta name="format-detection" content="telephone=no">
   <meta name="renderer" content="webkit">
   <meta http-equiv="Cache-Control" content="no-siteapp"/>
-    <script type="text/javascript" src="../public/jquery-3.1.1.js"></script>
+  <script type="text/javascript" src="../public/jquery-3.1.1.js"></script>
   <link rel="alternate icon" type="img/hengwang-1.png" href="img/hengwang-1.png">
   <link rel="stylesheet" href="css/amazeui.css"/>
   <link rel="stylesheet" href="css/style.css"/>
@@ -27,13 +26,14 @@
 <header class="am-topbar header">
 	<div class="am-container-1">
 		<div class="left hw-logo">
-		  <img class=" logo" src="img/logo.png">
+		  <img class=" logo" src="img/logo.png"></img>
     </div>
   <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
           data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
       class="am-icon-bars"></span></button>
 
   <div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
+    
 
     <div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
       <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
@@ -65,40 +65,17 @@
   </div>
   </div>
 </header>
-<div class="toppic">
-	 <div class="am-container-1">
-	 <div class="toppic-title left">
-			<i class="am-icon-newspaper-o toppic-title-i"></i>
-			<span class="toppic-title-span">新闻详情</span>
-			<p>News Information</p>
-		</div>
-		<div class="right toppic-progress">
-			<span><a href="news.html" class="w-white">新闻动态</a></span>
-			<i class=" am-icon-arrow-circle-right w-white"></i>
-			<span><a href="news_inform.php" class="w-white">新闻详情</a></span>
-		</div>
-	</div>
-</div>
-
-<div class="am-g am-container">
-<div class="am-container-1 margin-t30">
-	<div class="words-title ">
 
 
-		<!--标题-->
-		<span><?php echo $res["a_title"] ?></span>
-		<!--日期-->
-		<div>
-            <?php
-            echo $res["a_time"] ?>
+
+<div class="am-g am-container" style="margin-top: 100px;">
+    <div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
+        <div class="newstitles">
+            <h2><?php echo $res["a_title"] ?></h2>
+            <!--<img src="Temp-images/face.jpg" class="face">-->
+            <!--<span>Rosis 作者</span>-->
+            时间：   <?php echo $res["a_time"] ?>
         </div>
-	</div>
-</div>
-
-
-
-
-<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
         <a href="#"><img src="Temp-images/ad2.png" class="am-img-responsive" width="100%"/></a>
 
         <div class="contents">
@@ -116,10 +93,8 @@
             </div>
         </div>
     </div>
-
-
-
-<div class="am-u-sm-0 am-u-md-0 am-u-lg-3">
+    
+    <div class="am-u-sm-0 am-u-md-0 am-u-lg-3">
         <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
             <h2 class="am-titlebar-title ">
                 公告
@@ -331,7 +306,19 @@
         </ul>
 
     </div>
+    </div>
 </div>
+
+
+<div data-am-widget="gotop" class="am-gotop am-gotop-fixed" >
+    <a href="#top" title="回到顶部">
+        <span class="am-gotop-title">回到顶部</span>
+        <i class="am-gotop-icon am-icon-chevron-up"></i>
+    </a>
+</div>
+  
+   
+		
 
 
 <footer class="footer ">
@@ -341,7 +328,7 @@
         <li class="am-u-lg-4 am-u-md-4 am-u-sm-12 part-5-li2">
             <div class="part-5-title">联系我们</div>
             <div class="part-5-words2">
-                <span>地址:武汉市洪山区街道口鹏程国际B座2511</span>
+                <span>地址:</span>
                 <span>电话:18238765101</span>
                 <span>传真:(123) 456-7890</span>
                 <span>邮箱:support@vectorlab.com</span>
@@ -366,7 +353,6 @@
     </ul>
    
 </footer>
-
 <script type="text/javascript">
     $(document).ready(function(){
         <?php
@@ -375,12 +361,10 @@
         $('#showdetail').load(detailUrl);
     });
 </script>
+
 </body>
-<script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
-<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
-<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+
 <script src="js/jquery.min.js"></script>
 <script src="js/amazeui.min.js"></script>
-
 
 </html>

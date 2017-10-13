@@ -1,3 +1,4 @@
+<meta charset="utf-8" />
 <?php
 include "../public/conn.php";
 $preContent = $_POST['precontent'];

@@ -1,6 +1,7 @@
 <!--文章管理-->
 <html>
 <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="css/pintuer.css">
     <link rel="stylesheet" href="css/admin.css">
     <script src="js/jquery.js"></script>
@@ -24,7 +25,7 @@
             <td>科学</td>
             <td>
             <div class="button-group">
-                <a class="button border-main" href="#add"><span class="icon-edit"></span> 修改</a>
+                <a class="button border-main" href="column_edit_help.php"><span class="icon-edit"></span> 修改</a>
                 <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>
             </div>
             </td>

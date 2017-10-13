@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="panel admin-panel">
-    <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>栏目添加</strong></div>
+    <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>栏目修改</strong></div>
 
     <div class="body-content">
 
@@ -28,8 +28,10 @@
             </div>
 
             <div class="field">
-                <button class="button bg-main icon-check-square-o" type="submit"> 提交</button>
+                <button class="button bg-main icon-check-square-o" type="submit"> 修改</button>
+                <a class="button border-main" href="column_edit.php"><span class=""></span> 取消</a>
             </div>
+
         </form>
     </div>
 </div>

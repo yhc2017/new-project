@@ -28,23 +28,6 @@
 
 <div class="leftnav">
   <div class="leftnav-title"><strong><span class="icon-list"></span>菜单列表</strong></div>
-<!--  <h2><span class="icon-user"></span>基本设置</h2>-->
-<!--  <ul style="display:block">-->
-<!--    <li><a href="info.php" target="right"><span class="icon-caret-right"></span>网站设置</a></li>-->
-<!--    <li><a href="pass.php" target="right"><span class="icon-caret-right"></span>修改密码</a></li>-->
-<!--    <li><a href="page.php" target="right"><span class="icon-caret-right"></span>单页管理</a></li>-->
-<!--    <li><a href="adv.php" target="right"><span class="icon-caret-right"></span>首页轮播</a></li>-->
-<!--    <li><a href="book.php" target="right"><span class="icon-caret-right"></span>留言管理</a></li>-->
-<!--    <li><a href="column.php" target="right"><span class="icon-caret-right"></span>栏目管理</a></li>-->
-<!--  </ul>-->
-<!--    -->
-<!--  <h2><span class="icon-pencil-square-o"></span>栏目管理</h2>-->
-<!--  <ul>-->
-<!--    <li><a href="list.php" target="right"><span class="icon-caret-right"></span>内容管理</a></li>-->
-<!--    <li><a href="add.php" target="right"><span class="icon-caret-right"></span>添加内容</a></li>-->
-<!--    <li><a href="cate.php" target="right"><span class="icon-caret-right"></span>分类管理</a></li>-->
-<!--  </ul>  -->
-
 
     <h2><span class="icon-pencil-square-o"></span>文章上传管理</h2>
     <ul>
@@ -74,7 +57,7 @@
     <ul>
         <li><a href="admin_add.php" target="right"><span class="icon-caret-right"></span>添加管理员</a></li>
         <li><a href="admin_select.php" target="right"><span class="icon-caret-right"></span>查看管理员</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>删除管理员</a></li>
+        <li><a href="admin_delect.php" target="right"><span class="icon-caret-right"></span>删除管理员</a></li>
     </ul>
 
 </div>
@@ -100,8 +83,5 @@ $(function(){
 <div class="admin">
   <iframe scrolling="auto" rameborder="0" src="article_up.php" name="right" width="100%" height="100%"></iframe>
 </div>
-<!--<div style="text-align:center;">-->
-<!--<!--<p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>-->-->
-<!--</div>-->
 </body>
 </html>

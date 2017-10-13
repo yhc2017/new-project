@@ -3,6 +3,7 @@
 <html lang="zh-CN">
 <head>
 <title>系统信息</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" href="css/pintuer.css">
 <style type="text/css">
 *{ margin:0px; padding:0px;}

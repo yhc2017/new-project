@@ -22,19 +22,30 @@
             <th width="15%">时间</th>
             <th width="">操作</th>
         </tr>
-
+        <?php
+        include "../public/conn.php";
+        $sql = mysqli_query($conn,"select * from article;");
+        while($res = mysqli_fetch_array($sql)) {
+        $res["a_id"];
+        $res["a_title"];
+        $res["a_centUrl"];
+        $res["a_user"];
+        $res["a_time"];
+        $res["co_id"];
+        ?>
         <tr>
-            <td>1</td>
-            <td>科学</td>
-            <td>论科学</td>
-            <td>老千</td>
-            <td>2017.10.2<td>
+            <td><?=$res["co_id"]?></td>
+            <td><?=$res["a_id"] ?></td>
+            <td><?=$res["a_title"] ?></td>
+<!--            <td>--><?//=$res["a_centUrl"] ?><!--</td>-->
+            <td><?=$res["a_user"] ?></td>
+            <td><?=$res["a_time"] ?><td>
                 <div class="button-group">
                     <a class="button border-main" href="article_column_edit.php"><span class="icon-edit"></span> 修改</a>
                     <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>
                 </div>
         </tr>
-
+<?php }?>
     </table>
 </div>
 </body>

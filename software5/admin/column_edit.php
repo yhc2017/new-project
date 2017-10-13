@@ -24,10 +24,20 @@
             <td>1</td>
             <td>科学</td>
             <td>
-            <div class="button-group">
-                <a class="button border-main" href="column_edit_help.php"><span class="icon-edit"></span> 修改</a>
-                <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>
-            </div>
+                <div class="button-group">
+                    <a class="button border-main" href="column_edit_help.php"><span class="icon-edit"></span> 修改</a>
+                    <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>自然</td>
+            <td>
+                <div class="button-group">
+                    <a class="button border-main" href="column_edit_help.php"><span class="icon-edit"></span> 修改</a>
+                    <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>
+                </div>
             </td>
         </tr>
 

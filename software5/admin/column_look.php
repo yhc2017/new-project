@@ -24,6 +24,10 @@
             <td>1</td>
             <td>科学</td>
         </tr>
+        <tr>
+            <td>2</td>
+            <td>自然</td>
+        </tr>
 
     </table>
 </div>

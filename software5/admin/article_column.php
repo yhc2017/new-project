@@ -30,7 +30,7 @@
             <td>老千</td>
             <td>2017.10.2<td>
                 <div class="button-group">
-                    <a class="button border-main" href="#add"><span class="icon-edit"></span> 修改</a>
+                    <a class="button border-main" href="article_column_edit.php"><span class="icon-edit"></span> 修改</a>
                     <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>
                 </div>
         </tr>

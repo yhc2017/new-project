@@ -18,12 +18,18 @@
             <th width="40%">栏目名称</th>
             <th></th>
         </tr>
-
+        <?php
+        include "../public/conn.php";
+        $sql = mysqli_query($conn,"select * from menu;");
+        while($res = mysqli_fetch_array($sql)) {
+        $res["menu_id"];
+        $res["menu_name"];
+        ?>
         <tr>
-            <td>1</td>
-            <td>科学</td>
+            <td><?=$res["menu_id"];?></td>
+            <td><?=$res["menu_name"];?></td>
         </tr>
-
+<?php }?>
     </table>
 </div>
 </body>

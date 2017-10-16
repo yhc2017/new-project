@@ -4168,7 +4168,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   position: relative;
   min-height: 49px;
   /*margin-bottom: 20px;*/
-  height: 49px;
+  height: 47px;
   z-index: 666;
 }
 @media (min-width: 768px) {

@@ -60,23 +60,23 @@
         <li><a href="column_look.php" target="right"><span class="icon-caret-right"></span>栏目浏览</a></li>
         <li><a href="column_edit.php" target="right"><span class="icon-caret-right"></span>各栏目菜单编辑</a></li>
     </ul>
-    <h2><span class="icon-pencil-square-o"></span>留言链接管理</h2>
-    <ul>
-        <li><a href="book.php" target="right"><span class="icon-caret-right"></span>留言管理</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>添加友情链接</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>友情链接管理</a></li>
-    </ul>
+<!--    <h2><span class="icon-pencil-square-o"></span>留言链接管理</h2>-->
+<!--    <ul>-->
+<!--        <li><a href="book.php" target="right"><span class="icon-caret-right"></span>留言管理</a></li>-->
+<!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>添加友情链接</a></li>-->
+<!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>友情链接管理</a></li>-->
+<!--    </ul>-->
     <h2><span class="icon-pencil-square-o"></span>系统信息管理</h2>
     <ul>
         <li><a href="pass.php" target="right"><span class="icon-caret-right"></span>用户名密码修改</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>上传文件管理</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>占用空间管理</a></li>
+<!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>上传文件管理</a></li>-->
+<!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>占用空间管理</a></li>-->
     </ul>
     <h2><span class="icon-pencil-square-o"></span>管理员信息管理</h2>
     <ul>
         <li><a href="admin_add.php" target="right"><span class="icon-caret-right"></span>添加管理员</a></li>
         <li><a href="admin_select.php" target="right"><span class="icon-caret-right"></span>查看管理员</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>删除管理员</a></li>
+        <li><a href="admin_delect.php" target="right"><span class="icon-caret-right"></span>删除管理员</a></li>
     </ul>
 
 </div>

@@ -18,17 +18,24 @@
             <th width="40%">栏目名称</th>
             <th width="">操作</th>
         </tr>
-
-        <tr>
-            <td>1</td>
-            <td>科学</td>
-            <td>
-            <div class="button-group">
-                <a class="button border-main" href="#add"><span class="icon-edit"></span> 修改</a>
-                <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>
-            </div>
-            </td>
-        </tr>
+        <?php
+        include "../public/conn.php";
+        $sql = mysqli_query($conn,"select * from menu;");
+        while($res = mysqli_fetch_array($sql)) {
+            $res["menu_id"];
+            $res["menu_name"];
+            ?>
+            <tr>
+                <td><?=$res["menu_id"];?></td>
+                <td><?=$res["menu_name"];?></td>
+                <td>
+                    <div class="button-group">
+                        <a class="button border-main" href="#add"><span class="icon-edit"></span> 修改</a>
+                        <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>
+                    </div>
+                </td>
+            </tr>
+        <?php }?>
 
     </table>
 </div>

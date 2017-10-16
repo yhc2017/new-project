@@ -343,7 +343,7 @@
                     $res["a_time"];
                     ?>
                     <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                        <div class=" am-u-sm-8 am-list-main">
+                        <div class="am-u-sm-8 am-list-main">
                             <h3 class="am-list-item-hd">
                                 <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
                             </h3>

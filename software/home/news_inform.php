@@ -65,7 +65,7 @@
   </div>
   </div>
 </header>
-<div class="toppic">
+<div class="toppic" style="margin-top: 80px;">
 	 <div class="am-container-1">
 	 <div class="toppic-title left">
 			<i class="am-icon-newspaper-o toppic-title-i"></i>

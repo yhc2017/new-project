@@ -67,7 +67,7 @@
 
 
 
-<div class="am-g am-container" style="margin-top: 100px;">
+<div class="am-g am-container" style="margin-top: 80px;">
     <div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
         <div class="newstitles">
             <h2><?php echo $res["a_title"] ?></h2>

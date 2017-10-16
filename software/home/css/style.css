@@ -2279,7 +2279,6 @@ margin-right: 50px;
 	/*团队人才*/
 
 #category_top{
-    background-image: url("images/zlbg.png");
     background-position: center center;
     background-repeat: no-repeat;
     padding: 30px 0;
@@ -2304,7 +2303,7 @@ margin-right: 50px;
 }
 #category_top li{
     text-align: center;
-    height: 500px;
+    height: 400px;
 }
 #category_top .ctl{
     padding: 30px 10px;
@@ -2441,3 +2440,5 @@ body{
 .c li{
 	background-color: rgba(0,0,0,0);
 }
+
+

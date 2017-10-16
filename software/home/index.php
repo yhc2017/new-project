@@ -180,140 +180,6 @@
 			</div>
 		</div>
 		
-		<!--<div class="gray-li">
-			<div class="customer-case part-all ">
-				<div class="part-title">
-					<a href="customer-case.html">
-						<i class=" am-icon-briefcase part-title-i"></i>
-						<span class="part-title-span">研究实体</span>
-						<p>SCIENTIFIC RESEARCH</p>
-					</a>
-				</div>
-
-				<ul data-am-widget="gallery" class=" am-avg-sm-1 am-avg-md-4 am-avg-lg-4 am-gallery-bordered customer-case-content">
-					<li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
-						<div class="am-gallery-item case-img1">
-							<a href="http://www.bigdata-research.org/research/health/">
-								<img src="images/i1.png" />
-							</a>
-						</div>
-						<div class="case-li-mengban">
-							<div class=" case-word">
-								<h3 class="am-gallery-title">健康大数据研究中心</h3>
-								<a href="http://www.bigdata-research.org/research/health/"><span><i class="am-icon-eye"></i>查看更多</span></a>
-							</div>
-						</div>
-					</li>
-					<li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
-						<div class="am-gallery-item case-img1">
-							<a href="http://www.bigdata-research.org/research/inference/">
-								<img src="images/i2.png" />
-							</a>
-						</div>
-						<div class="case-li-mengban">
-							<div class=" case-word">
-								<h3 class="am-gallery-title">大数据挖掘与推理研究所</h3>
-								<a href="http://www.bigdata-research.org/research/inference/"><span><i class="am-icon-eye"></i>查看更多</span></a>
-							</div>
-						</div>
-					</li>
-					<li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
-						<div class="am-gallery-item case-img1">
-							<a href="http://www.bigdata-research.org/research/move/">
-								<img src="images/i3.png" />
-							</a>
-						</div>
-						<div class="case-li-mengban">
-							<div class=" case-word">
-								<h3 class="am-gallery-title">移动大数据研究所</h3>
-								<a href="http://www.bigdata-research.org/research/move/"><span><i class="am-icon-eye"></i>查看更多</span></a>
-							</div>
-						</div>
-					</li>
-					<li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
-						<div class="am-gallery-item case-img1">
-							<a href="http://www.bigdata-research.org/research/education/">
-								<img src="images/i4.png" />
-							</a>
-						</div>
-						<div class="case-li-mengban">
-							<div class=" case-word">
-								<h3 class="am-gallery-title">教育大数据研究所</h3>
-								<a href="http://www.bigdata-research.org/research/education/"><span><i class="am-icon-eye"></i>查看更多</span></a>
-							</div>
-						</div>
-					</li>
-					<li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
-						<div class="am-gallery-item case-img1">
-							<a href="http://www.bigdata-research.org/research/sensing/">
-								<img src="images/i5.png" />
-							</a>
-						</div>
-						<div class="case-li-mengban">
-							<div class=" case-word">
-								<h3 class="am-gallery-title">遥感大数据研究所</h3>
-								<a href="http://www.bigdata-research.org/research/sensing/"><span><i class="am-icon-eye"></i>查看更多</span></a>
-							</div>
-						</div>
-					</li>
-					<li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
-						<div class="am-gallery-item case-img1">
-							<a href="http://www.bigdata-research.org/research/technology/">
-								<img src="images/i6.png" />
-							</a>
-						</div>
-						<div class="case-li-mengban">
-							<div class=" case-word">
-								<h3 class="am-gallery-title">大数据产业技术研究院</h3>
-								<a href="http://www.bigdata-research.org/research/technology/"><span><i class="am-icon-eye"></i>查看更多</span></a>
-							</div>
-						</div>
-					</li>
-					<li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
-						<div class="am-gallery-item case-img1">
-							<a href="http://www.bigdata-research.org/research/innovate/">
-								<img src="images/i7.png" />
-							</a>
-						</div>
-						<div class="case-li-mengban">
-							<div class=" case-word">
-								<h3 class="am-gallery-title">大数据协同创新平台</h3>
-								<a href="http://www.bigdata-research.org/research/innovate/"><span><i class="am-icon-eye"></i>查看更多</span></a>
-							</div>
-						</div>
-					</li>
-					<li class="case-li am-u-sm-6 am-u-md-6 am-u-lg-3">
-						<div class="am-gallery-item case-img1">
-							<a href="http://www.bigdata-research.org/research/safety/">
-								<img src="images/i8.png" />
-							</a>
-						</div>
-						<div class="case-li-mengban">
-							<div class=" case-word">
-								<h3 class="am-gallery-title">安全大数据研究所</h3>
-								<a href="http://www.bigdata-research.org/research/safety/"><span><i class="am-icon-eye"></i>查看更多</span></a>
-							</div>
-						</div>
-					</li>
-
-				</ul>
-				<div class="lan-bott">
-					<div class="left"><span>大世界，小数据</span>
-						<p>Big World,Small Data</p>
-					</div>
-					<div class="right">
-						<a href="customer-case.html">
-							<span class="see-more">查看更多<i class="am-icon-angle-double-right"></i></span>
-						</a>
-					</div>
-					<div class="clear"></div>
-				</div>
-				<div class="part-title">
-
-				</div>
-			</div>
-		</div>-->
-
 		<div class=" news-all">
 			<div class="am-container-1">
 				<div class="news part-all">
@@ -321,7 +187,7 @@
 						<a href="news.html">
 							<i class="am-icon-newspaper-o part-title-i"></i>
 							<span class="part-title-span">新闻动态</span>
-							<p>Hengwang News</p>
+							<p>News & Events</p>
 						</a>
 					</div>
 					<div class="news-content ">
@@ -334,7 +200,7 @@
                 学院要闻
             </h2>
             <nav class="am-titlebar-nav">
-                <a href="#more">more &raquo;</a>
+                <a href="news.html">more &raquo;</a>
             </nav>
         </div>
 
@@ -349,7 +215,7 @@
                     $res["a_time"];
                     ?>
                     <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                        <div class="am-u-sm-8 am-list-main">
+                        <div class="am-u-sm-11" style="height: 60px;"> 
                             <h3 class="am-list-item-hd">
                                 <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
                             </h3>
@@ -372,7 +238,7 @@
                 系内热点
             </h2>
             <nav class="am-titlebar-nav">
-                <a href="#more">more &raquo;</a>
+                <a href="news.html">more &raquo;</a>
             </nav>
         </div>
 
@@ -387,7 +253,7 @@
                 $res["a_time"];
                 ?>
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class=" am-u-sm-8 am-list-main">
+                    <div class=" am-u-sm-11" style="height: 60px;">
                         <h3 class="am-list-item-hd">
                             <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
                         </h3>
@@ -407,7 +273,7 @@
                 校园快讯
             </h2>
             <nav class="am-titlebar-nav">
-                <a href="#more">more &raquo;</a>
+                <a href="news.html">more &raquo;</a>
             </nav>
         </div>
 
@@ -422,7 +288,7 @@
                        $res["a_time"];
                        ?>
                        <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                           <div class=" am-u-sm-8 am-list-main">
+                           <div class=" am-u-sm-11" style="height: 60px;">
                                <h3 class="am-list-item-hd">
                                    <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
                                </h3>
@@ -571,7 +437,7 @@
 				</div>
 			</div>
 			
-<div id="category_top" style="background-image: url(images/zlbg.png);">
+<div id="category_top" style="background-image: url(images/zlbg.png); height: 300px;">
     <div class="kz" id="leftbtn">
         <i class="am-icon-angle-left" ></i>
     </div>
@@ -579,16 +445,14 @@
         <i class="am-icon-angle-right"></i>
     </div>
     <div class="am-container" >
-        <ul class="am-avg-sm-4 am-avg-md-6 am-avg-lg-7 am-thumbnails" id="topface" >
+        <ul class="am-avg-sm-4 am-avg-md-6 am-avg-lg-7 am-thumbnails" id="topface">
             <li>
                 <a href="#">
                 <div class="ctl">
                     <img src="images/20170501044008834.bmp">
                     <h3 style="color: #0086DA;">张屹</h3>
                     <p>主任</p>
-                </div>
-                <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
+                </div></a>
             </li>
             <li>
                 <a href="#">
@@ -596,9 +460,7 @@
                      <img src="images/20170501044022350.jpg">
                     <h3 style="color: #0086DA;">黄友谦</h3>
                     <p>教授</p>
-                </div>
-                <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
+                </div></a>
             </li>
             <li>
                 <a href="#">
@@ -606,9 +468,7 @@
                     <img src="images/20170501044038374.bmp">
                     <h3 style="color: #0086DA;">侯广坤</h3>
                     <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
+                    </div></a>
             </li>
             <li>
                 <a href="#">
@@ -616,9 +476,7 @@
                     <img src="images/20170501044055173.jpg">
                     <h3 style="color: #0086DA;">薛建民</h3>
                     <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
+                    </div></a>
             </li>
             <li>
                 <a href="#">
@@ -626,9 +484,7 @@
                     <img src="images/20170501044108309.jpg">
                     <h3 style="color: #0086DA;">谭兆信</h3>
                     <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
+                    </div></a>
             </li>
             <li>
                 <a href="#">
@@ -636,9 +492,7 @@
                     <img src="images/20170501044123118.jpg">
                     <h3 style="color: #0086DA;">姚恩建</h3>
                     <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
+                    </div></a>
             </li>
             <li>
                 <a href="#">
@@ -646,9 +500,7 @@
                     <img src="images/20170501044108309.jpg">
                     <h3 style="color: #0086DA;">谭兆信</h3>
                     <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
+                    </div></a>
             </li>
             <li>
                 <a href="#">
@@ -656,9 +508,7 @@
                     <img src="images/20170501044123118.jpg">
                     <h3 style="color: #0086DA;">姚恩建</h3>
                     <p>教授</p>
-                    </div>
-                    <button type="button" class="am-btn am-btn-primary">进入专栏</button>
-                </a>
+                    </div></a>
             </li>
         </ul>
 

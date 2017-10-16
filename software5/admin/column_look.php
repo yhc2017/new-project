@@ -19,16 +19,19 @@
             <th width="40%">栏目名称</th>
             <th></th>
         </tr>
-
+        <?php
+        include "../public/conn.php";
+        $sql = mysqli_query($conn,"select * from columns;");
+        while($res = mysqli_fetch_array($sql)) {
+        $res["co_id"];
+        $res["co_name"];
+        ?>
         <tr>
-            <td>1</td>
-            <td>科学</td>
-        </tr>
-        <tr>
-            <td>2</td>
-            <td>自然</td>
+            <td><?php echo $res["co_id"] ?></td>
+            <td><?php echo $res["co_name"] ?></td>
         </tr>
 
+<?php }?>
     </table>
 </div>
 </body>

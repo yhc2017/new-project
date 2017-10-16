@@ -26,7 +26,6 @@
                 $res["sys_adminPwd"];
             ?>
         <tr>
-<!--                <li><a href="article_detail.php?id=--><?php //echo $res["a_id"] ?><!--" onclick="showdetail(this)" id="--><?php //echo $res["a_id"] ?><!--">--><?php //echo $res["a_title"] ?><!--</a></li>-->
                 <td><?php echo $res["sys_adminId"] ?></td>
                 <td><?php echo $res["sys_adminPwd"] ?></td>
         </tr>

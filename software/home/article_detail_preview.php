@@ -25,7 +25,6 @@
 </head>
 <body>
 <header class="am-topbar header">
-    <h1><b>新闻细节展示**预览**页面</b></h1>
     <div class="am-container-1">
         <div class="left hw-logo">
             <img class=" logo" src="img/logo.png">
@@ -40,38 +39,31 @@
             <div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
                 <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
                     <li>
-                        <a href="index.php">首页</a>
-                    </li>
-                    <li>
-                        <a href="general-profile.html">中心概况</a>
-                    </li>
-                    <li class="hw-menu-active">
-                        <a href="news.html">新闻公告 </a>
-                    </li>
-                    <li>
-                        <a href="customer-case.html">人才队伍</a>
-                    </li>
-                    <!--<li>
-                        <a href="service-center.html">认证培训 </a>
-                    </li>
-                    <li>
-                        <a href="product-show.html">研究实体 </a>-->
-                    </li>
-                    <li>
-                        <a href="about-us.html">关于我们</a>
-                    </li>
-                    <!--<li><a href="recruit.html">招贤纳士 </a></li>-->
+								<a href="index.php">首页</a>
+							</li>
+							<li>
+								<a href="general-profile.html">中心概况</a>
+							</li>
+							<li class="hw-menu-active">
+								<a href="news.html">新闻动态 </a>
+							</li>
+							<li>
+								<a href="team.html">人才队伍</a>
+							</li>
+							<li>
+								<a href="about-us.html">关于我们</a>
+							</li>
                 </ul>
             </div>
 
         </div>
     </div>
 </header>
-<div class="toppic">
+<div class="toppic" style="margin-top: 80px;">
     <div class="am-container-1">
         <div class="toppic-title left">
             <i class="am-icon-newspaper-o toppic-title-i"></i>
-            <span class="toppic-title-span">新闻详情</span>
+            <span class="toppic-title-span">新闻详情(预览界面)</span>
             <p>News Information</p>
         </div>
         <div class="right toppic-progress">

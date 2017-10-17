@@ -40,24 +40,17 @@
 								<a href="index.php">首页</a>
 							</li>
 							<li>
-								<a href="solutions.html">中心概况</a>
+								<a href="general-profile.html">中心概况</a>
 							</li>
 							<li class="hw-menu-active">
-								<a href="news.html">新闻公告 </a>
+								<a href="news.html">新闻动态 </a>
 							</li>
 							<li>
-								<a href="customer-case.html">人才队伍</a>
-							</li>
-							<li>
-								<a href="service-center.html">认证培训 </a>
-							</li>
-							<li>
-								<a href="product-show.html">研究实体 </a>
+								<a href="team.html">人才队伍</a>
 							</li>
 							<li>
 								<a href="about-us.html">关于我们</a>
 							</li>
-      <!--<li><a href="recruit.html">招贤纳士 </a></li>-->
     </ul>
     </div>
 

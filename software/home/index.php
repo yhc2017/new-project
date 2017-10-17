@@ -217,7 +217,7 @@
                     <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                         <div class="am-u-sm-11" style="height: 60px;"> 
                             <h3 class="am-list-item-hd">
-                                <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
+                                <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
                             </h3>
                             <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
                         </div>
@@ -255,7 +255,7 @@
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                     <div class=" am-u-sm-11" style="height: 60px;">
                         <h3 class="am-list-item-hd">
-                            <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
+                            <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
                         </h3>
                         <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
                     </div>
@@ -290,7 +290,7 @@
                        <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                            <div class=" am-u-sm-11" style="height: 60px;">
                                <h3 class="am-list-item-hd">
-                                   <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
+                                   <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
                                </h3>
                                <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
                            </div>
@@ -381,42 +381,7 @@
 		</div>
 		
 		</div>
-					<!--<div class="panel panel-default table-responsive center-block" style="background: #398439; height: 300px;">
-							<table class="table table-striped table-bordered table-hover gpleft_table">
-								<tbody>
-									<tr class="active">
-										<thead style="background: #28A4C9;">
-											<th>NO.</th>
-											<th>MEDIA</th>
-											<th>TIME</th>
-										</thead>
-									</tr>
-
-                                <?php
-                                $sql = mysqli_query($conn,"select * from article;");
-
-                                while($res = mysqli_fetch_array($sql)) {
-                                    $res["a_title"];
-                                    $res["a_id"];
-                                    $res["a_time"];
-                                    ?>
-
-                                    <tr class="active">
-                                        <td><?php echo $res["a_id"] ?></td>
-                                        <td>
-                                            <a href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
-                                        </td>
-                                        <td><?php echo $res["a_time"] ?></td>
-                                    </tr>
-
-									<?php
-                            	    }
-                                ?>
-
-
-								</tbody>
-							</table>
-						</div>-->
+					
 
 
 					</div>

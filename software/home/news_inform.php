@@ -198,13 +198,13 @@
             <ul class="am-list">
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                     <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg" class="face"/>
+                        <a href="images/bing-1.jpg">
+                            <img src="images/bing-1.jpg" class="face"/>
                         </a>
                     </div>
 
                     <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
+                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
 
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
                     </div>
@@ -212,13 +212,13 @@
                 <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                     <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg" class="face"/>
+                        <a href="images/bing-1.jpg">
+                            <img src="images/bing-1.jpg" class="face"/>
                         </a>
                     </div>
 
                     <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
+                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
 
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
 
@@ -227,13 +227,13 @@
                 <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                     <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg" class="face"/>
+                        <a href="images/bing-1.jpg">
+                            <img src="images/bing-3.jpg" class="face"/>
                         </a>
                     </div>
 
                     <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
+                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
 
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
 
@@ -254,13 +254,13 @@
             <ul class="am-list"  >
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                     <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg"/>
+                        <a href="images/bing-1.jpg">
+                            <img src="images/bing-1.jpg">
                         </a>
                     </div>
 
                     <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
+                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
 
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
                     </div>
@@ -268,13 +268,13 @@
                 <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                     <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg"/>
+                        <a href="images/bing-1.jpg">
+                            <img src="images/bing-2.jpg"/>
                         </a>
                     </div>
 
                     <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
+                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
 
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
 
@@ -283,13 +283,13 @@
                 <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                     <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg"/>
+                        <a href="images/bing-1.jpg">
+                            <img src="images/bing-1.jpg"/>
                         </a>
                     </div>
 
                     <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
+                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
 
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
 
@@ -302,8 +302,8 @@
   am-avg-md-1 am-avg-lg-1 am-gallery-default" data-am-gallery="{ pureview: true }" >
             <li>
                 <div class="am-gallery-item">
-                    <a href="http://s.amazeui.org/media/i/demos/bing-1.jpg" class="">
-                        <img src="http://s.amazeui.org/media/i/demos/bing-1.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
+                    <a href="images/bing-1.jpg" class="">
+                        <img src="images/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
                         <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
                         <div class="am-gallery-desc">
                             <div class="am-fr">北京</div>
@@ -314,8 +314,8 @@
             </li>
             <li>
                 <div class="am-gallery-item">
-                    <a href="http://s.amazeui.org/media/i/demos/bing-2.jpg" class="">
-                        <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
+                   <a href="images/bing-1.jpg" class="">
+                        <img src="images/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
                         <h3 class="am-gallery-title">某天 也许会相遇 相遇在这个好地方</h3>
                         <div class="am-gallery-desc">
                             <div class="am-fr">北京</div>
@@ -326,8 +326,8 @@
             </li>
             <li>
                 <div class="am-gallery-item">
-                    <a href="http://s.amazeui.org/media/i/demos/bing-2.jpg" class="">
-                        <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
+                    <a href="images/bing-1.jpg" class="">
+                        <img src="images/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
                         <h3 class="am-gallery-title">某天 也许会相遇 相遇在这个好地方</h3>
                         <div class="am-gallery-desc">
                             <div class="am-fr">北京</div>

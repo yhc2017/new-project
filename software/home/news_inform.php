@@ -40,7 +40,7 @@
 	</div>
 </div>
 
-<div class="am-g am-container">
+<div class="am-g am-container-1" style="background-color:#FFFFFF">
 <!--<div class="am-container-1 margin-t30">-->
 <!--	<div class="words-title ">-->
 <!---->
@@ -58,7 +58,7 @@
 
 
 
-<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
+<div class="am-u-sm-5 am-u-md-10 am-u-lg-8">
 <!--        <a href="#"><img src="Temp-images/ad2.png" class="am-img-responsive" width="100%"/></a>-->
 
 
@@ -97,255 +97,49 @@
 <div class="am-u-sm-0 am-u-md-0 am-u-lg-3">
         <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
             <h2 class="am-titlebar-title ">
-                公告
+                	最新要闻
             </h2>
             <nav class="am-titlebar-nav">
-                <a href="#more">more &raquo;</a>
+                <a href="news.php">more &raquo;</a>
             </nav>
         </div>
 
         <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
             <ul class="am-list"  >
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg" class="face"/>
-                        </a>
+                <li class="am-g am-list-item-desced">
+                    <div class=" am-u-sm-12">
+                        <div class="am-list-item-text">代码压缩和最小化</div>
                     </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
+                </li>
+                <li class="am-g am-list-item-desced">
+                    <div class=" am-u-sm-12">
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
                     </div>
                 </li>
-                <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg" class="face"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
+                <li class="am-g am-list-item-desced">
+                    <div class=" am-u-sm-12">
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
                     </div>
                 </li>
-                <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="http://www.douban.com/online/11624755/">
-                            <img src="Temp-images/face.jpg" class="face"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="http://www.douban.com/online/11624755/">勾三古寺</a></h3>
-
+                <li class="am-g am-list-item-desced">
+                    <div class=" am-u-sm-12">
                         <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
+                    </div>
+                </li>
+                <li class="am-g am-list-item-desced">
+                    <div class=" am-u-sm-12">
+                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
+                    </div>
+                </li>
+                <li class="am-g am-list-item-desced">
+                    <div class=" am-u-sm-12">
+                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
                     </div>
                 </li>
             </ul>
         </div>
-
-        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
-            <h2 class="am-titlebar-title ">
-                相关推荐
-            </h2>
-            <nav class="am-titlebar-nav">
-                <a href="#more">more &raquo;</a>
-            </nav>
-        </div>
-
-        <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
-            <ul class="am-list">
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="images/bing-1.jpg">
-                            <img src="images/bing-1.jpg" class="face"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-                    </div>
-                </li>
-                <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="images/bing-1.jpg">
-                            <img src="images/bing-1.jpg" class="face"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
-                    </div>
-                </li>
-                <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="images/bing-1.jpg">
-                            <img src="images/bing-3.jpg" class="face"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
-            <h2 class="am-titlebar-title ">
-                评测
-            </h2>
-            <nav class="am-titlebar-nav">
-                <a href="#more">more &raquo;</a>
-            </nav>
-        </div>
-
-        <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
-            <ul class="am-list"  >
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="images/bing-1.jpg">
-                            <img src="images/bing-1.jpg">
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-                    </div>
-                </li>
-                <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="images/bing-1.jpg">
-                            <img src="images/bing-2.jpg"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
-                    </div>
-                </li>
-                <hr data-am-widget="divider" style="" class="am-divider am-divider-default" />
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class="am-u-sm-4 am-list-thumb">
-                        <a href="images/bing-1.jpg">
-                            <img src="images/bing-1.jpg"/>
-                        </a>
-                    </div>
-
-                    <div class=" am-u-sm-8 am-list-main">
-                        <h3 class="am-list-item-hd"><a href="images/bing-1.jpg">勾三古寺</a></h3>
-
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
-
-                    </div>
-                </li>
-            </ul>
-        </div>
-
-        <ul class="am-gallery am-avg-sm-1
-  am-avg-md-1 am-avg-lg-1 am-gallery-default" data-am-gallery="{ pureview: true }" >
-            <li>
-                <div class="am-gallery-item">
-                    <a href="images/bing-1.jpg" class="">
-                        <img src="images/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
-                        <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-                        <div class="am-gallery-desc">
-                            <div class="am-fr">北京</div>
-                            <div class="am-fl">2016/11/11</div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div class="am-gallery-item">
-                   <a href="images/bing-1.jpg" class="">
-                        <img src="images/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
-                        <h3 class="am-gallery-title">某天 也许会相遇 相遇在这个好地方</h3>
-                        <div class="am-gallery-desc">
-                            <div class="am-fr">北京</div>
-                            <div class="am-fl">2016/11/11</div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-            <li>
-                <div class="am-gallery-item">
-                    <a href="images/bing-1.jpg" class="">
-                        <img src="images/bing-2.jpg"  alt="某天 也许会相遇 相遇在这个好地方"/>
-                        <h3 class="am-gallery-title">某天 也许会相遇 相遇在这个好地方</h3>
-                        <div class="am-gallery-desc">
-                            <div class="am-fr">北京</div>
-                            <div class="am-fl">2016/11/11</div>
-                        </div>
-                    </a>
-                </div>
-            </li>
-        </ul>
-
-    </div>
+       </div>
 </div>
-
-
-<footer class="footer">
-			<ul>
-				<li class="am-u-lg-6 am-u-md-6 am-u-sm-12 part-5-li2">
-					<div class="part-5-title">联系我们</div>
-					<div class="part-5-words2">
-						<span>广东省广州市从化区经济开发区高技术产业园广从南路548号</span>
-						<span>
-							电话：020－87818918 
-							传真：87818020  
-							邮编：510990</span>
-						<span></span>
-					</div>
-				</li>
-				<li class="am-u-lg-4 am-u-md-4 am-u-sm-12 ">
-					<div class="part-5-title">相关链接</div>
-					<div class="part-5-words2">
-						<ul class="part-5-words2-ul">
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://www.sise.com.cn/">华软官网</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://home.sise.cn/">华软导航</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://soft.sise.cn/">软件工程系官网</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="about-us.html">关于我们</a>
-							</li>
-							<div class="clear"></div>
-						</ul>
-					</div>
-				</li>
-				<div class="clear"></div>
-			</ul>
-
-		</footer>
 
 <script type="text/javascript">
     $(document).ready(function(){
@@ -355,6 +149,9 @@
         $('#showdetail').load(detailUrl);
     });
 </script>
+
+
+		<?php include ("footer_dome.php");?>
 </body>
 <script src="http://libs.baidu.com/jquery/1.11.1/jquery.min.js"></script>
 <script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>

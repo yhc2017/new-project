@@ -14,19 +14,19 @@
 						<a href="index.php">首页</a>
 					</li>
 					<li>
-						<a href="general-profile.php">中心概况</a>
+						<a href="general-profile.php">研究所概况</a>
 					</li>
 					<li>
 						<a href="news.php">新闻动态 </a>
 					</li>
 					<li>
-						<a href="#">研究成果</a>
+						<a href="achievement.php">研究成果</a>
 					</li>
 					<li>
-						<a href="#">开放交流</a>
+						<a href="open-exchange.php">开放交流</a>
 					</li>
 					<li>
-						<a href="#">技术前沿</a>
+						<a href="technology-frontier.php">技术前沿</a>
 					</li>
 				</ul>
 			</div>

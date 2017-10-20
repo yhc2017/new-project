@@ -24,13 +24,13 @@
 			<div class="am-container-1">
 				<div class="toppic-title left">
 					<i class="am-icon-lightbulb-o toppic-title-i"></i>
-					<span class="toppic-title-span">中心概况</span>
-					<p>GENERAL PROFILE</p>
+					<span class="toppic-title-span">研究所概况</span>
+					<p>Research overview</p>
 				</div>
 				<div class="right toppic-progress">
 					<span><a href="index.php" class="w-white">首页</a></span>
 					<i class=" am-icon-arrow-circle-right w-white"></i>
-					<span><a href="solutions.html" class="w-white">中心概况</a></span>
+					<span><a href="solutions.html" class="w-white">研究所概况</a></span>
 				</div>
 			</div>
 		</div>
@@ -61,8 +61,8 @@
 
 					<div>
 						<div class="am-article-hd" style="text-align: center;">
-							<h1 class="am-article-title" style="color: #330352;">中心概况</h1>
-							<p class="am-article-meta" style="border-bottom: 1px solid #555555;">GENERAL PROFILE</p>
+							<h1 class="am-article-title" style="color: #330352;">研究所介绍</h1>
+							<p class="am-article-meta" style="border-bottom: 1px solid #555555;">Research institute</p>
 
 						</div>
 						<article class="am-article" style="margin-left: 100px; margin-right: 100px;">

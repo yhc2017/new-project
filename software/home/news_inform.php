@@ -24,40 +24,7 @@
   <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<header class="am-topbar header">
-	<div class="am-container-1">
-		<div class="left hw-logo">
-		  <img class=" logo" src="img/logo.png">
-    </div>
-  <button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only"
-          data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
-      class="am-icon-bars"></span></button>
-
-  <div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
-
-    <div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
-      <ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
-      <li>
-								<a href="index.php">首页</a>
-							</li>
-							<li>
-								<a href="general-profile.html">中心概况</a>
-							</li>
-							<li class="hw-menu-active">
-								<a href="news.html">新闻动态 </a>
-							</li>
-							<li>
-								<a href="team.html">人才队伍</a>
-							</li>
-							<li>
-								<a href="about-us.html">关于我们</a>
-							</li>
-    </ul>
-    </div>
-
-  </div>
-  </div>
-</header>
+<?php include ("header.php");?>
 <div class="toppic" style="margin-top: 80px;">
 	 <div class="am-container-1">
 	 <div class="toppic-title left">

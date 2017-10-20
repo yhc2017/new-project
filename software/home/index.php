@@ -53,13 +53,13 @@
 								<a href="index.php">首页</a>
 							</li>
 							<li>
-								<a href="general-profile.html">中心概况</a>
+								<a href="general-profile.php">中心概况</a>
 							</li>
 							<li>
-								<a href="news.html">新闻动态 </a>
+								<a href="news.php">新闻动态 </a>
 							</li>
 							<li>
-								<a href="team.html">人才队伍</a>
+								<a href="team.php">人才队伍</a>
 							</li>
 							<!--<li>
 								<a href="certification-training.html">认证培训</a>
@@ -68,7 +68,7 @@
 								<a href="http://home.sise.cn.html">学院官方 </a>
 							</li>
 							<li>
-								<a href="about-us.html">关于我们</a>
+								<a href="about-us.php">关于我们</a>
 							</li>
 							<!--<li><a href="../admin/login.php">后台入口 </a></li>-->
 						</ul>
@@ -113,7 +113,7 @@
 					<dl style="margin-left: 50px;">
 
                         
-                                            	<dd><a href="#">关于软件工程</a></dd>
+                        <dd><a href="#">关于软件工程</a></dd>
                         <dd><a href="#">办公环境</a></dd>
                         <dd><a href="#">联系我们</a></dd>
                        
@@ -146,6 +146,7 @@
 				</ul>
 			</div>
 		</div>
+		
 		<div class="am-container-1">
 			<div class="solutions part-all">
 				<div class="part-title">
@@ -180,8 +181,8 @@
 			</div>
 		</div>
 		
-		<div class=" news-all">
-			<div class="am-container-1">
+		<div class="news-all" style="height: 640px;">
+			<div class=" am-container-1">
 				<div class="news part-all">
 					<div class="part-title">
 						<a href="news.html">
@@ -190,214 +191,129 @@
 							<p>News & Events</p>
 						</a>
 					</div>
-					<div class="news-content ">
-
-
-
-<div class="am-u-sm-0 am-u-md-0 am-u-lg-4">
-        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
-            <h2 class="am-titlebar-title ">
-                学院要闻
-            </h2>
-            <nav class="am-titlebar-nav">
-                <a href="news.html">more &raquo;</a>
-            </nav>
-        </div>
-
-        <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
-            <ul class="am-list"  >
-                <?php
-                $sql = mysqli_query($conn,"select * from article where a_belong = '1' group by a_id desc limit 0,5;");
-
-                while($res = mysqli_fetch_array($sql)) {
-                    $res["a_title"];
-                    $res["a_id"];
-                    $res["a_time"];
-                    ?>
-                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                        <div class="am-u-sm-11" style="height: 60px;"> 
-                            <h3 class="am-list-item-hd">
-                                <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
-                            </h3>
-                            <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
-                        </div>
-                    </li>
-                    <?php
-                }
-                ?>
-
-            </ul>
-        </div>
-
-       </div>
-
-
-<div class="am-u-sm-0 am-u-md-0 am-u-lg-4">
-        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
-            <h2 class="am-titlebar-title ">
-                系内热点
-            </h2>
-            <nav class="am-titlebar-nav">
-                <a href="news.html">more &raquo;</a>
-            </nav>
-        </div>
-
-    <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
-        <ul class="am-list"  >
-            <?php
-            $sql = mysqli_query($conn,"select * from article where a_belong = '2' group by a_id desc limit 0,5;");
-
-            while($res = mysqli_fetch_array($sql)) {
-                $res["a_title"];
-                $res["a_id"];
-                $res["a_time"];
-                ?>
-                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                    <div class=" am-u-sm-11" style="height: 60px;">
-                        <h3 class="am-list-item-hd">
-                            <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
-                        </h3>
-                        <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
-                    </div>
-                </li>
-                <?php
-            }
-            ?>
-        </ul>
-    </div>
-</div>
-       
-       <div class="am-u-sm-0 am-u-md-0 am-u-lg-4">
-        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
-            <h2 class="am-titlebar-title ">
-                校园快讯
-            </h2>
-            <nav class="am-titlebar-nav">
-                <a href="news.html">more &raquo;</a>
-            </nav>
-        </div>
-
-           <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
-               <ul class="am-list"  >
-                   <?php
-                   $sql = mysqli_query($conn,"select * from article where a_belong = '3' group by a_id desc limit 0,5;");
-
-                   while($res = mysqli_fetch_array($sql)) {
-                       $res["a_title"];
-                       $res["a_id"];
-                       $res["a_time"];
-                       ?>
-                       <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
-                           <div class=" am-u-sm-11" style="height: 60px;">
-                               <h3 class="am-list-item-hd">
-                                   <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
-                               </h3>
-                               <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
-                           </div>
-                       </li>
-                       <?php
-                   }
-                   ?>
-               </ul>
-           </div>
-</div>
-      <!--//图片画廊-->
-       
-       <div class="part-all">
-			<div class="customer  am-container-1">
-       <ul data-am-widget="gallery" class="am-gallery am-avg-sm-2 am-avg-md-3 am-avg-lg-4 am-gallery-overlay" data-am-gallery="{ pureview: true }">
-		  <li>
-		  	<div class="am-gallery-item">
-	            <a href="#">
-	              <img src="images/bing-1.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
-	                <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-	                <div class="am-gallery-desc">2375-09-26</div>
-	            </a>
-	        </div>
-		  </li>
-		  <li>
-		  	<div class="am-gallery-item">
-	            <a href="#">
-	              <img src="images/bing-2.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
-	                <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-	                <div class="am-gallery-desc">2375-09-26</div>
-	            </a>
-	        </div>
-		  </li>
-		  <li>
-		  	<div class="am-gallery-item">
-	            <a href="#">
-	              <img src="images/bing-3.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
-	                <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-	                <div class="am-gallery-desc">2375-09-26</div>
-	            </a>
-	        </div>
-		  </li>
-		  <li>
-		  	<div class="am-gallery-item">
-	            <a href="#">
-	              <img src="images/bing-4.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
-	                <h5 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h5>
-	                <div class="am-gallery-desc">2375-09-26</div>
-	            </a>
-	        </div>
-		  </li>
-		  <li>
-		  	<div class="am-gallery-item">
-	            <a href="#">
-	              <img src="images/bing-1.jpg"/>
-	                <h5 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h5>
-	            </a>
-	        </div>
-		  </li>
-		  <li>
-		  	<div class="am-gallery-item">
-	            <a href="#">
-	              <img src="images/bing-2.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
-	                <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-	                <div class="am-gallery-desc">2375-09-26</div>
-	            </a>
-	        </div>
-		  </li>
-		  <li>
-		  	<div class="am-gallery-item">
-	            <a href="#">
-	              <img src="images/bing-3.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
-	                <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-	                <div class="am-gallery-desc">2375-09-26</div>
-	            </a>
-	        </div>
-		  </li>
-		  <li>
-		  	<div class="am-gallery-item">
-	            <a href="#">
-	              <img src="images/bing-4.jpg"  alt="远方 有一个地方 那里种有我们的梦想"/>
-	                <h3 class="am-gallery-title">远方 有一个地方 那里种有我们的梦想</h3>
-	                <div class="am-gallery-desc">2375-09-26</div>
-	            </a>
-	        </div>
-		  </li>
-		</ul>
-		</div>
-		
-		</div>
+					<div class="news-content">
+					<div class="am-u-sm-10 am-u-md-10 am-u-lg-4">
+					        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
+					            <h2 class="am-titlebar-title ">
+					                研究所要闻
+					            </h2>
+					            <nav class="am-titlebar-nav">
+					                <a target="_blank" href="news.html">more &raquo;</a>
+					            </nav>
+					        </div>
 					
-
-
+					        <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
+					            <ul class="am-list"  >
+					                <?php
+					                $sql = mysqli_query($conn,"select * from article where a_belong = '1' group by a_id desc limit 0,5;");
+					
+					                while($res = mysqli_fetch_array($sql)) {
+					                    $res["a_title"];
+					                    $res["a_id"];
+					                    $res["a_time"];
+					                    ?>
+					                    <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+					                        <div class="am-u-sm-11" style="height: 60px;"> 
+					                            <h3 class="am-list-item-hd">
+					                                <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
+					                            </h3>
+					                            <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
+					                        </div>
+					                    </li>
+					                    <?php
+					                }
+					                ?>
+					
+					            </ul>
+					        </div>
+					
+					       </div>
+					
+					
+					<div class="am-u-sm-0 am-u-md-0 am-u-lg-4">
+					        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
+					            <h2 class="am-titlebar-title ">
+					                学院新闻
+					            </h2>
+					            <nav class="am-titlebar-nav">
+					                <a target="_blank" href="news.html">more &raquo;</a>
+					            </nav>
+					        </div>
+					
+					    <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
+					        <ul class="am-list"  >
+					            <?php
+					            $sql = mysqli_query($conn,"select * from article where a_belong = '2' group by a_id desc limit 0,5;");
+					
+					            while($res = mysqli_fetch_array($sql)) {
+					                $res["a_title"];
+					                $res["a_id"];
+					                $res["a_time"];
+					                ?>
+					                <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+					                    <div class=" am-u-sm-11" style="height: 60px;">
+					                        <h3 class="am-list-item-hd">
+					                            <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
+					                        </h3>
+					                        <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
+					                    </div>
+					                </li>
+					                <?php
+					            }
+					            ?>
+					        </ul>
+					    </div>
+					</div>
+       
+					   <div class="am-u-sm-0 am-u-md-0 am-u-lg-4">
+					<div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
+					<h2 class="am-titlebar-title ">
+					系内热点
+					</h2>
+					<nav class="am-titlebar-nav">
+					<a href="news.html">more &raquo;</a>
+					</nav>
+					</div>
+					
+					   <div data-am-widget="list_news" class="am-list-news am-list-news-default right-bg">
+					   <ul class="am-list"  >
+					   <?php
+					   $sql = mysqli_query($conn,"select * from article where a_belong = '3' group by a_id desc limit 0,5;");
+					
+					   while($res = mysqli_fetch_array($sql)) {
+					       $res["a_title"];
+					       $res["a_id"];
+					       $res["a_time"];
+					       ?>
+					       <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
+					           <div class=" am-u-sm-11" style="height: 60px;">
+					               <h3 class="am-list-item-hd">
+					                   <a target="_blank" href="news_inform.php?id=<?php echo $res["a_id"] ?>" onclick="showdetail(this)" id="<?php echo $res["a_id"] ?>"><?php echo $res["a_title"] ?></a>
+					               </h3>
+					               <div class="am-list-item-text"><?php echo $res["a_time"] ?></div>
+					           </div>
+					       </li>
+					       <?php
+					   }
+					   ?>
+					   </ul>
+					   </div>
+					
+					
 					</div>
 
-				</div>
 			</div>
 		</div>
+		</div>
+		</div>
 
-
-		<div class="part-all gray-li">
+		<div class="part-all gray-li"">
 			<div class="customer  am-container-1">
 				<div class="part-title">
 					<a href="team.html">
 						<i class="am-icon-users part-title-i"></i>
-						<span class="part-title-span">人才队伍</span>
-						<p>TEAM</p>
+						<span class="part-title-span">专家介绍</span>
+						<p>Expert introduction</p>
 					</a>
 				</div>
 			</div>
@@ -523,43 +439,8 @@
 </script>
 <script src="js/public.js"></script>
 
-		<footer class="footer">
-			<ul>
-				<li class="am-u-lg-6 am-u-md-6 am-u-sm-12 part-5-li2">
-					<div class="part-5-title">联系我们</div>
-					<div class="part-5-words2">
-						<span>广东省广州市从化区经济开发区高技术产业园广从南路548号</span>
-						<span>
-							电话：020－87818918 
-							传真：87818020  
-							邮编：510990</span>
-						<span></span>
-					</div>
-				</li>
-				<li class="am-u-lg-4 am-u-md-4 am-u-sm-12 ">
-					<div class="part-5-title">相关链接</div>
-					<div class="part-5-words2">
-						<ul class="part-5-words2-ul">
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://www.sise.com.cn/">华软官网</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://home.sise.cn/">华软导航</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://soft.sise.cn/">软件工程系官网</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="about-us.html">关于我们</a>
-							</li>
-							<div class="clear"></div>
-						</ul>
-					</div>
-				</li>
-				<div class="clear"></div>
-			</ul>
 
-		</footer>
+		<?php include ("footer_dome.php");?>
 
         <script>
             function showdetail(obj){

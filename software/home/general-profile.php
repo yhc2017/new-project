@@ -3,7 +3,7 @@
 
 	<head lang="en">
 		<meta charset="UTF-8">
-		<title>中心概况</title>
+		<title>研究所概况</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0,user-scalable=no">
 		<meta name="format-detection" content="telephone=no">
@@ -18,46 +18,7 @@
 	</head>
 
 	<body>
-		<header class="am-topbar header">
-			<div class="am-container-1">
-				<div class="left hw-logo">
-					<img class=" logo" src="img/logo.png"></img>
-				</div>
-				<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
-      class="am-icon-bars"></span></button>
-
-				<div class="am-collapse am-topbar-collapse right" id="doc-topbar-collapse">
-
-					<div class=" am-topbar-left am-form-inline am-topbar-right" role="search">
-						<ul class="am-nav am-nav-pills am-topbar-nav hw-menu">
-							<li>
-								<a href="index.php">首页</a>
-							</li>
-							<li class="hw-menu-active">
-								<a href="general-profile.html">中心概况</a>
-							</li>
-							<li>
-								<a href="news.html">新闻动态 </a>
-							</li>
-							<li>
-								<a href="team.html">人才队伍</a>
-							</li>
-							<!--<li>
-								<a href="certification-training.html">认证培训</a>
-							</li>
-							<li>
-								<a href="research-entities.html">研究实体 </a>
-							</li>-->
-							<li>
-								<a href="about-us.html">关于我们</a>
-							</li>
-							<!--<li><a href="recruit.html">招贤纳士 </a></li>-->
-						</ul>
-					</div>
-
-				</div>
-			</div>
-		</header>
+		<?php include ("header.php");?>
 
 		<div class="toppic" style="margin-top: 80px;">
 			<div class="am-container-1">
@@ -74,20 +35,23 @@
 			</div>
 		</div>
 
-		<div data-am-widget="tabs" class="am-tabs am-tabs-d2 " style="background: #FFFFFF;">
+		<div data-am-widget="tabs" class="am-tabs am-tabs-d2" style="background: #FFFFFF;">
 
 			<ul class="am-tabs-nav am-cf solutions-tabs-ul ">
 				<li class="am-active solutions-tabs-ul-li1">
-					<a href="[data-tab-panel-0]"><i class=" am-icon-arrows-v"></i><span>中心概况</span></a>
+					<a href="[data-tab-panel-0]"><i class=" am-icon-arrows-v"></i><span>研究所介绍</span></a>
 				</li>
 				<li class="solutions-tabs-ul-li2">
-					<a href="[data-tab-panel-1]"><i class=" am-icon-arrows-h"></i><span>宗旨目标</span></a>
+					<a href="[data-tab-panel-1]"><i class=" am-icon-arrows-h"></i><span>研究内容</span></a>
 				</li>
 				<li class="solutions-tabs-ul-li3">
-					<a href="[data-tab-panel-2]"><i class=" am-icon-backward"></i><span>组织结构</span></a>
+					<a href="[data-tab-panel-2]"><i class=" am-icon-backward"></i><span>课题项目</span></a>
 				</li>
 				<li class="solutions-tabs-ul-li4">
-					<a href="[data-tab-panel-3]"><i class=" am-icon-bar-chart"></i><span>重要成果</span></a>
+					<a href="[data-tab-panel-3]"><i class=" am-icon-bar-chart"></i><span>专家介绍</span></a>
+				</li>
+				<li class="solutions-tabs-ul-li5">
+					<a href="[data-tab-panel-4]"><i class=" am-icon-bar-chart-o"></i><span>联系我们</span></a>
 				</li>
 			</ul>
 
@@ -162,32 +126,6 @@
 							</div>
 
 					</div>
-					<!--<ul class=" solutions-content-ul">
-          		
-            	<li class="am-u-sm-12 am-u-md-6 am-u-lg-12">
-            		<a href="solutions-inform.html">
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
-            			<img src="img/app1.png" />
-            		</div>
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
-            			<h5>优悦解决方案</h5>
-            			<p>华天公路货运管理系统是华天软件为物流货运企业全力打造的一套物流网络信息化的实在营运解决方案，通过６年的不断积累，汲取数十家物流企业的实战经验，以客户为中心，以业务为纽带，为车辆调度，仓库管理，装车发货，分拣中心，卸货提货，运单跟踪，</p>
-            		</div>
-            		</a>
-            	</li>
-            	<li class="am-u-sm-12 am-u-md-6 am-u-lg-12">
-            		<a href="#">
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
-            			<img src="img/app2.png" />
-            		</div>
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
-            			<h5>优悦解决方案</h5>
-            			<p>华天公路货运管理系统是华天软件为物流货运企业全力打造的一套物流网络信息化的实在营运解决方案，通过６年的不断积累，汲取数十家物流企业的实战经验，以客户为中心，以业务为纽带，为车辆调度，仓库管理，装车发货，分拣中心，卸货提货，运单跟踪，</p>
-            		</div>
-            		</a>
-            	</li>
-            	<div class="clear"></div>
-           </ul>-->
 
 				</div>
 
@@ -224,43 +162,6 @@
 						</div>
 						<div class="clear"></div>
 					</div>
-
-					<!--<ul class="am-container-1 solutions-content-ul">
-            	<li class="am-u-sm-12 am-u-md-6 am-u-lg-12">
-            		<a href="#">
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
-            			<img src="img/app1.png" />
-            		</div>
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
-            			<h5>优悦解决方案</h5>
-            			<p>华天公路货运管理系统是华天软件为物流货运企业全力打造的一套物流网络信息化的实在营运解决方案，通过６年的不断积累，汲取数十家物流企业的实战经验，以客户为中心，以业务为纽带，为车辆调度，仓库管理，装车发货，分拣中心，卸货提货，运单跟踪，</p>
-            		</div>
-            		</a>
-            	</li>
-            	<li class="am-u-sm-12 am-u-md-6 am-u-lg-12">
-            		<a href="#">
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
-            			<img src="img/app2.png" />
-            		</div>
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
-            			<h5>优悦解决方案</h5>
-            			<p>华天公路货运管理系统是华天软件为物流货运企业全力打造的一套物流网络信息化的实在营运解决方案，通过６年的不断积累，汲取数十家物流企业的实战经验，以客户为中心，以业务为纽带，为车辆调度，仓库管理，装车发货，分拣中心，卸货提货，运单跟踪，</p>
-            		</div>
-            		</a>
-            	</li>
-            	
-            	<li class="am-u-sm-12 am-u-md-6 am-u-lg-12  am-u-end">
-            		<a href="#">
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
-            			<img src="img/app2.png" />
-            		</div>
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
-            			<h5>优悦解决方案</h5>
-            			<p>华天公路货运管理系统是华天软件为物流货运企业全力打造的一套物流网络信息化的实在营运解决方案，通过６年的不断积累，汲取数十家物流企业的实战经验，以客户为中心，以业务为纽带，为车辆调度，仓库管理，装车发货，分拣中心，卸货提货，运单跟踪，</p>
-            		</div>
-            	</li>
-            	</a>
-            </ul>-->
 				</div>
 
           <div data-tab-panel-2 class="am-tab-panel ">
@@ -271,30 +172,7 @@
 						    </div>
           	
           	<img class="am-round" src="images/zzjgt.png" style="margin-top: 10px;"/>
-            <!--<ul class="am-container-1 solutions-content-ul">
-            	<li class="am-u-sm-12 am-u-md-6 am-u-lg-12">
-            		<a href="#">
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
-            			<img src="img/app1.png" />
-            		</div>
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
-            			<h5>优悦解决方案</h5>
-            			<p>华天公路货运管理系统是华天软件为物流货运企业全力打造的一套物流网络信息化的实在营运解决方案，通过６年的不断积累，汲取数十家物流企业的实战经验，以客户为中心，以业务为纽带，为车辆调度，仓库管理，装车发货，分拣中心，卸货提货，运单跟踪，</p>
-            		</div>
-            		</a>
-            	</li>
-            	<li class="am-u-sm-12 am-u-md-6 am-u-lg-12">
-            		<a href="#">
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
-            			<img src="img/app2.png" />
-            		</div>
-            		<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
-            			<h5>优悦解决方案</h5>
-            			<p>华天公路货运管理系统是华天软件为物流货运企业全力打造的一套物流网络信息化的实在营运解决方案，通过６年的不断积累，汲取数十家物流企业的实战经验，以客户为中心，以业务为纽带，为车辆调度，仓库管理，装车发货，分拣中心，卸货提货，运单跟踪，</p>
-            		</div>
-            		</a>
-            	</li>
-            </ul>-->
+            
           </div>
           
 
@@ -367,47 +245,82 @@
 					
 				</div>
 				
+				
+				<div data-tab-panel-4 class="am-tab-panel">
+
+					<div>
+						<div class="am-article-hd" style="text-align: center;">
+							<h1 class="am-article-title" style="color: #330352;">研究所介绍</h1>
+							<p class="am-article-meta" style="border-bottom: 1px solid #555555;">Research institute</p>
+
+						</div>
+						<article class="am-article" style="margin-left: 100px; margin-right: 100px;">
+
+							<div>
+								<div class="left am-u-sm-12 am-u-md-12 am-u-lg-6 " style="margin-top: 50px;">
+									<table>
+										<td>
+											<div class="am-article-hd">
+												<h1 class="am-article-title"><img src="images/icon1.png" ></h1>
+
+											</div>
+										</td>
+										<td>
+
+										</td>
+										<td>
+											<div class="am-article-bd" style="">
+												<p style="margin-left: 20px;">目前国内规模最大、架构最完整的大数据产学研一体化机构,由国内大数据领域领军专家周涛教授组建并担任中心主任,致力于构建大数据行业的“贝尔实验室”</p>
+											</div>
+										</td>
+									</table>
+									<table style="margin-top: 20px;">
+										<td>
+											<div class="am-article-hd">
+												<h1 class="am-article-title"><img src="images/icon2.png" ></h1>
+
+											</div>
+										</td>
+										<td>
+
+										</td>
+										<td>
+											<div class="am-article-bd">
+												<p style="margin-left: 20px;">作为校级研究中心，拥有国家级人才12名，包括 2名长江学者，8名千人计划和1名万人计划获得者，中心成员曾获得1项国家自然科学二等奖，2项国家科技进步二等奖，11项省部级科技奖励一等奖。</p>
+											</div>
+										</td>
+									</table>
+									<table style="margin-top: 20px;">
+										<td>
+											<div class="am-article-hd">
+												<h1 class="am-article-title"><img src="images/icon3.png" ></h1>
+
+											</div>
+										</td>
+										<td>
+
+										</td>
+										<td>
+											<div class="am-article-bd">
+												<p style="margin-left: 20px;">定位为连接政府、企业、高校、研究院所、资本和创业型企业的纽带和中枢，致力建设成为在学科、学术、技术、产业、机制五方面均在国内具有引领地位的大型创新平台。</p>
+											</div>
+										</td>
+									</table>
+
+								</div>
+								<div class="right am-u-sm-12 am-u-md-12 am-u-lg-5 " style="margin-top: 100px;">
+									<img src="images/img04.jpg" style="width: 350px;height: 250px;" />
+								</div>
+								<div class="clear"></div>
+							</div>
+
+					</div>
+
+				</div>
 			</div>
 
 		</div>
-
-		<footer class="footer">
-			<ul>
-				<li class="am-u-lg-6 am-u-md-6 am-u-sm-12 part-5-li2">
-					<div class="part-5-title">联系我们</div>
-					<div class="part-5-words2">
-						<span>广东省广州市从化区经济开发区高技术产业园广从南路548号</span>
-						<span>
-							电话：020－87818918 
-							传真：87818020  
-							邮编：510990</span>
-						<span></span>
-					</div>
-				</li>
-				<li class="am-u-lg-4 am-u-md-4 am-u-sm-12 ">
-					<div class="part-5-title">相关链接</div>
-					<div class="part-5-words2">
-						<ul class="part-5-words2-ul">
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://www.sise.com.cn/">华软官网</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://home.sise.cn/">华软导航</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="http://soft.sise.cn/">软件工程系官网</a>
-							</li>
-							<li class="am-u-lg-4 am-u-md-6 am-u-sm-4">
-								<a href="about-us.html">关于我们</a>
-							</li>
-							<div class="clear"></div>
-						</ul>
-					</div>
-				</li>
-				<div class="clear"></div>
-			</ul>
-
-		</footer>
+<?php include ("footer_dome.php");?>
 
 	</body>
 	<!--[if lt IE 9]>

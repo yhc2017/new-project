@@ -9,13 +9,15 @@
 		<meta name="format-detection" content="telephone=no">
 		<meta name="renderer" content="webkit">
 		<meta http-equiv="Cache-Control" content="no-siteapp" />
-		<link rel="stylesheet" href="css/bootstrap.css" />
+		<!--<link rel="stylesheet" href="css/bootstrap.css" />-->
         <script type="text/javascript" src="../public/jquery-3.1.1.js"></script>
-		<script type="text/javascript" src="js/bootstrap.min.js"></script>
-		<script src="js/lib.js"></script>
+		<!--<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script src="js/lib.js"></script>-->
 		<link rel="alternate icon" type="img/hengwang-1.png" href="img/hengwang-1.png">
 		<link rel="stylesheet" href="css/amazeui.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		
+		
 
 	<body>
 	<!--回到顶部-->
@@ -25,113 +27,44 @@
     </a>
   </div>
 		<!-- 顶部的log区域  -->
-	<header class="container-fluid container-top">
+	<header class="container-top">
 		<div class="enter">
 				<a href="../admin/login.php">后台入口 </a>
 		   </div>
-		<div class="logo tc"><a href="http://www.bigdata-research.org/"><img src="images/logo.png"/></a></div>
-	 
-	  <!-- Brand and toggle get grouped for better mobile display 小屏幕时候回变成的菜单的组件配置-->
-      <span class="container navbar-header">
-       <button type="button" class="navbar-toggle visible-md-block visible-sm-block visible-xs-block" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <!-- sr-only保证屏幕阅读器正确读取且不会影响 UI 的视觉呈现 -->
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>	
-      </span>
+		<div class="toplogo"><a href="#"><img src="images/top_logo02.png"/></a></div>
 	</header>
 		<!-- 导航条 -->
-		<header>
-		<nav id="nv" class="navbar navbar-default  visible-lg" >
-  <div class="container"  style="width: 1000px;">
-    <!-- Collect the nav links, forms, and other content for toggling  小屏幕时候会变成菜单 -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1 "  >
-    	<ul>
-							<li style="border-bottom: 4px solid #0086DA;">
-								<a href="index.php">首页</a>
+<div class="nav-contain">
+          <div class="nav-inner">
+            <ul class="am-nav am-nav-pills am-nav-justify">
+              <li style="border-top: 4px solid #0086DA;">
+				<a href="index.php">首页</a>
 							</li>
-							<li>
-								<a href="general-profile.php">中心概况</a>
-							</li>
-							<li>
-								<a href="news.php">新闻动态 </a>
-							</li>
-							<li>
-								<a href="team.php">人才队伍</a>
-							</li>
-							<!--<li>
-								<a href="certification-training.html">认证培训</a>
-							</li>-->
-							<li>
-								<a href="http://home.sise.cn.html">学院官方 </a>
-							</li>
-							<li>
-								<a href="about-us.php">关于我们</a>
-							</li>
-							<!--<li><a href="../admin/login.php">后台入口 </a></li>-->
-						</ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+             <li><a href="general-profile.php">研究所概况</a>		
+                <!-- sub-menu start-->
+                <ul class="sub-menu">
+                  <li class="menu-item"><a href="general-profile.php">研究所介绍</a></li>
+                  <li class="menu-item"><a href="general-profile.php">研究内容</a></li>
+                  <li class="menu-item"><a href="general-profile.php">课题项目</a></li>
+                  <li class="menu-item"><a href="team.php">专家介绍</a></li>
+                  <li class="menu-item"><a href="about-us.php">联系我们</a></li>
+                </ul>
+                <!-- sub-menu end-->
+              </li>
+              <li><a href="news.php">新闻动态 </a>
+              	<ul class="sub-menu" >
+              		 <li class="menu-item"><a href="news.php">研究所新闻</a></li>
+              		 <li class="menu-item"><a href="news.php">学院新闻</a></li>
+              		 <li class="menu-item"><a href="news.php">系内热点</a></li>
+              	</ul>
+              </li>
+              <li><a href="#">研究成果</a></li>
+              <li><a href="#">开发交流 </a></li>
+              <li><a href="#">技术前沿 </a></li>		
+            </ul>
+        </div>
+        <!--nav end-->
 
-
-<section class="nv-smenu container-fluid" >
-                <div class="container" style="width: 1000px;">
-                    <dl>
-                        <dd><a href="../admin/index.php"><img src="images/6.jpg"style="margin-left: auto; margin-top:10px;width: 180px;height: 150px;border: 5px solid #DADADA;"></dd>
-                    </dl>
-                    <dl style="margin-left: 20px;">
-                    	<dd><a href="#">中心介绍</a></dd>
-                    	<dd><a href="#">宗旨目标</a></dd>
-                    	<dd><a href="#">组织架构</a></dd>
-                    	<dd><a href="#">重要成果</a></dd>
-                    </dl>
-					<dl style="margin-left: 75px;">
-                        <dd><a href="#">媒体报道</a></dd>
-                        <dd><a href="#">简报摘要</a></dd>
-                        <dd><a href="#">动态通知</a></dd>
-                    </dl>
-                    <dl style="margin-left: 80px;">
-                        <dd><a href="#">两院院士</a></dd>
-                        <dd><a href="#">杰出人才</a></dd>
-                        <dd><a href="#">优秀人才</a></dd>
-                        <dd><a href="#">梯队人才</a></dd>
-                        <dd><a href="#">招纳贤士</a></dd>
-                    </dl>
-					<dl style="margin-left: 90px;">
-                        <dd><a href="http://www.sise.com.cn/">华软主页</a></dd>
-                        <dd><a href="http://news.sise.com.cn/">华软新闻</a></dd>
-                        <dd><a href="http://cp.sise.com.cn/">党建之窗</a></dd>
-                        <dd><a href="http://tuanwei.sise.cn/">学院团委</a></dd>
-                        <dd><a href="http://job.sise.com.cn/">就业指导</a></dd>
-                        <dd><a href="http://zs.sise.com.cn/recruit/index/index">招生办</a></dd>
-                        <dd><a href="http://dwc.scse.com.cn/">对外交流</a></dd>
-                        <dd><a href="http://bid.sise.cn/index.asp">招标网</a></dd>
-                    </dl>
-				
-					<dl style="margin-left: 50px;">
-
-                        
-                        <dd><a href="#">关于软件工程</a></dd>
-                        <dd><a href="#">办公环境</a></dd>
-                        <dd><a href="#">联系我们</a></dd>
-                       
-                    </dl>
-					<!--<dl style="margin-left: 18px;">
-                    	<dd><a href="#">安全大数据研究所</a></dd>
-                        <dd><a href="#">健康大数据研究中心</a></dd>
-                        <dd><a href="#">教育大数据研究所</a></dd>
-                        <dd><a href="#">移动大数据研究所</a></dd>
-                        <dd><a href="#">大数据挖掘与推理研究所</a></dd>
-                        <dd><a href="#">遥感大数据研究所</a></dd>
-                </dl>-->
-				</div>
-           </section>
-           </nav>
-  		<!-- -->
-		</header>
-		</section>     
 		<div class="rollpic">
 			<div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{&quot;animation&quot;:&quot;slide&quot;,&quot;slideshow&quot;:false}'>
 				<ul class="am-slides">

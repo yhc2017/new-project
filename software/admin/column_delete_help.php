@@ -4,7 +4,7 @@
  * User: hasee
  * Date: 2017/10/21
  * Time: 18:44
- * 删除菜单
+ * 删除菜单处理
  */
 
 include_once ("../public/conn.php");

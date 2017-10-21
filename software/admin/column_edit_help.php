@@ -1,6 +1,6 @@
 <?php
 /**
- * 功能;修改栏目菜单
+ * 修改菜单处理
  */
 include_once ("../public/conn.php");
 

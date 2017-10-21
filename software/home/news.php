@@ -30,7 +30,7 @@
 				<div class="right toppic-progress">
 					<span><a href="index.php" class="w-white">首页</a></span>
 					<i class=" am-icon-arrow-circle-right w-white"></i>
-					<span><a href="news.html" class="w-white">新闻动态</a></span>
+					<span><a href="news.php" class="w-white">新闻动态</a></span>
 				</div>
 			</div>
 		</div>

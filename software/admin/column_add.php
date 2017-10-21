@@ -18,10 +18,10 @@
             <div class="form-group">
 
                 <div class="label">
-                    <label>栏目：</label>
+                    <label>栏目名称：</label>
                 </div>
                 <div class="field">
-                <input id="title" type="text" class="input w50" value="" name="title" data-validate="required:请输入标题" />
+                <input id="title" type="text" class="input w50" value="" name="title" data-validate="required:请输入栏目名称" />
                     </div>
                     <div class="label">
                         <label>栏目链接：</label>
@@ -34,13 +34,10 @@
 
 
             </div>
-<!--            <div class="field">-->
-
-<!--            </div>-->
             <table class="table table-hover text-center">
                 <tr>
                     <th width="40%">栏目ID</th>
-                    <th>父栏目id</th>
+                    <th>父栏目ID</th>
                     <th width="40%">栏目名称</th>
                     <th width="">操作</th>
                 </tr>
@@ -59,8 +56,6 @@
                         <td>
                             <div class="button-group">
                                 <input class="button border-main" value=" 添加子栏目" type="button" onclick="addsColumn(<?=$res["menu_id"];?>)">
-<!--                                <a class="button border-main" href="column_add_help.php?id=--><?//=$res["menu_id"]?><!--" onclick="return decide_title()"> <span class="icon-edit"></span> 添加子栏目</a>-->
-<!--                                <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>-->
                             </div>
                         </td>
                     </tr>
@@ -71,19 +66,6 @@
     </div>
 </div>
 <script>
-//    var name=document.getElementById('title').value;
-//    alert(document.getElementById['titless'].value);
-//    function decide_title(){
-////        alert(document.getElementById('title').value=="");
-//        if(document.getElementById('title').value==""){
-//            alert("请输入栏目名");
-//           return false;
-//      }
-//        return true;
-//   }
-//   function  getName(){
-//    return document.getElementById('title').value;
-//}
 //判断并提交到php处理
     function addsColumn(id){
         var name=document.getElementById('title').value;
@@ -93,11 +75,6 @@
         else {
             window.location="column_add_help.php?id="+id+" & name="+name;
         }
-//        alert(name);
-//        alert("column_add_help.php?id="+id+" & name="+name);
-//        alert("column_help.php?id="+id);
-//        window.location="column_add_help.php?id="+id;
-
 }
 </script>
 </body>

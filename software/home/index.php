@@ -27,19 +27,18 @@
     </a>
   </div>
 		<!-- 顶部的log区域  -->
-	<header class="container-top">
+	<header class="container-top am-show-md-up">
 		<div class="enter">
 				<a href="../admin/login.php">后台入口 </a>
 		   </div>
 		<div class="toplogo"><a href="#"><img src="images/top_logo02.png"/></a></div>
 	</header>
 		<!-- 导航条 -->
-<div class="nav-contain">
+<div class="nav-contain am-show-md-up">
           <div class="nav-inner">
             <ul class="am-nav am-nav-pills am-nav-justify">
               <li style="border-top: 4px solid #0086DA;">
-				<a href="index.php">首页</a>
-							</li>
+				<a href="index.php">首页</a></li>
              <li><a href="general-profile.php">研究所概况</a>		
                 <!-- sub-menu start-->
                 <ul class="sub-menu">
@@ -63,7 +62,132 @@
               <li><a href="#">技术前沿 </a></li>		
             </ul>
         </div>
+    </div>    
         <!--nav end-->
+<!--mobile header start-->
+    <div class="m-header am-show-sm-only" >
+      <div class="am-g">
+  <header id="amz-header">
+	<div class="amz-container am-cf" style="background: #0086DA;">
+		<h1><a href="#"><img src="images/top_logo_sm.png" style="margin-left: 20px;height:80px;width: 400px;"/></a></h1>
+			    <nav data-am-widget="menu" class="am-menu  am-menu-dropdown1" data-am-menu-collapse> 
+    <a href="javascript: void(0)" class="am-menu-toggle">
+        <img src="images/menu.png" style="height:45px;width: 45px; margin-right: 20px;margin-bottom: 20px;" alt="Menu Toggle"/>
+    </a>
+
+
+      <ul class="am-menu-nav am-avg-sm-1 am-collapse">
+          <li class="am-parent">
+            <a href="##" class="" >公司</a>
+              <ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
+                  <li class="">
+                    <a href="##" class="" >公司</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >人物</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >趋势</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >投融资</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >创业公司</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >创业人物</a>
+                  </li>
+                  <li class="am-menu-nav-channel"><a href="##" class="" title="公司">进入栏目 &raquo;</a></li>
+              </ul>
+          </li>
+          <li class="am-parent">
+            <a href="##" class="" >人物</a>
+              <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
+                  <li class="">
+                    <a href="##" class="" >公司</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >人物</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >趋势</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >投融资</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >创业公司</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >创业人物</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="am-parent">
+            <a href="#c3" class="" >趋势</a>
+              <ul class="am-menu-sub am-collapse  am-avg-sm-4 ">
+                  <li class="">
+                    <a href="##" class="" >公司</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >人物</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >趋势</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >投融资</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >创业公司</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >创业人物</a>
+                  </li>
+                  <li class="am-menu-nav-channel"><a href="#c3" class="" title="趋势">泥煤 &raquo;</a></li>
+              </ul>
+          </li>
+          <li class="am-parent">
+            <a href="##" class="" >投融资</a>
+              <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
+                  <li class="">
+                    <a href="##" class="" >公司</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >人物</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >趋势</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >投融资</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >创业公司</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >创业人物</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="">
+            <a href="##" class="" >创业公司</a>
+          </li>
+          <li class="">
+            <a href="##" class="" >创业人物</a>
+          </li>
+      </ul>
+
+  </nav>
+
+
+			
+			</div></header>
+
+      </div>
+    <!--mobile header end-->
+    </div>
 
 		<div class="rollpic">
 			<div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider='{&quot;animation&quot;:&quot;slide&quot;,&quot;slideshow&quot;:false}'>

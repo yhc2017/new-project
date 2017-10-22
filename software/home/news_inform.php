@@ -58,7 +58,7 @@
 
 
 
-<div class="am-u-sm-5 am-u-md-10 am-u-lg-8">
+<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
 <!--        <a href="#"><img src="Temp-images/ad2.png" class="am-img-responsive" width="100%"/></a>-->
 
 

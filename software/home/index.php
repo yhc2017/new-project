@@ -57,8 +57,18 @@
               		 <li class="menu-item"><a href="news.php">系内热点</a></li>
               	</ul>
               </li>
-              <li><a href="#">研究成果</a></li>
-              <li><a href="#">开发交流 </a></li>
+              <li><a href="#">研究成果</a>
+              	<ul class="sub-menu" >
+              		 <li class="menu-item"><a href="#">成果介绍</a></li>
+              		 <li class="menu-item"><a href="#">成果展示</a></li>
+              	</ul>
+              </li>
+              <li><a href="#">开发交流 </a>
+              	<ul class="sub-menu" >
+              		 <li class="menu-item"><a href="#">学术会议</a></li>
+              		 <li class="menu-item"><a href="#">学术论坛</a></li>
+              	</ul>
+              </li>
               <li><a href="#">技术前沿 </a></li>		
             </ul>
         </div>
@@ -77,105 +87,66 @@
 
 
       <ul class="am-menu-nav am-avg-sm-1 am-collapse">
+          <li>
+            <a href="index.php">首页</a></li>
           <li class="am-parent">
-            <a href="##" class="" >公司</a>
+            <a href="##" class="" >研究所概况</a>
+              <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
+                  <li class="">
+                    <a href="##" class="" >研究所介绍</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >研究内容</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >课题项目</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >专家介绍</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >联系我们</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="am-parent">
+            <a href="#c3" class="" >新闻动态</a>
+              <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
+                  <li class="">
+                    <a href="##" class="" >研究所新闻</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >学院新闻</a>
+                  </li>
+                  <li class="">
+                    <a href="##" class="" >系内热点</a>
+                  </li>
+              </ul>
+          </li>
+          <li class="am-parent">
+            <a href="##" class="" >研究成果</a>
               <ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
                   <li class="">
-                    <a href="##" class="" >公司</a>
+                    <a href="##" class="" >成果介绍</a>
                   </li>
                   <li class="">
-                    <a href="##" class="" >人物</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >趋势</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >投融资</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >创业公司</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >创业人物</a>
-                  </li>
-                  <li class="am-menu-nav-channel"><a href="##" class="" title="公司">进入栏目 &raquo;</a></li>
-              </ul>
-          </li>
-          <li class="am-parent">
-            <a href="##" class="" >人物</a>
-              <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
-                  <li class="">
-                    <a href="##" class="" >公司</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >人物</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >趋势</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >投融资</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >创业公司</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >创业人物</a>
+                    <a href="##" class="" >成果展示</a>
                   </li>
               </ul>
-          </li>
+            </li>
           <li class="am-parent">
-            <a href="#c3" class="" >趋势</a>
-              <ul class="am-menu-sub am-collapse  am-avg-sm-4 ">
+            <a href="##" class="" >开发交流</a>
+            <ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
                   <li class="">
-                    <a href="##" class="" >公司</a>
+                    <a href="##" class="" >学术会议</a>
                   </li>
                   <li class="">
-                    <a href="##" class="" >人物</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >趋势</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >投融资</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >创业公司</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >创业人物</a>
-                  </li>
-                  <li class="am-menu-nav-channel"><a href="#c3" class="" title="趋势">泥煤 &raquo;</a></li>
-              </ul>
-          </li>
-          <li class="am-parent">
-            <a href="##" class="" >投融资</a>
-              <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
-                  <li class="">
-                    <a href="##" class="" >公司</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >人物</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >趋势</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >投融资</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >创业公司</a>
-                  </li>
-                  <li class="">
-                    <a href="##" class="" >创业人物</a>
+                    <a href="##" class="" >学术论坛</a>
                   </li>
               </ul>
           </li>
           <li class="">
-            <a href="##" class="" >创业公司</a>
-          </li>
-          <li class="">
-            <a href="##" class="" >创业人物</a>
+            <a href="##" class="" >技术前沿</a>
           </li>
       </ul>
 

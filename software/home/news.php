@@ -56,9 +56,6 @@
                                         <a href="#">
                                             我院红会项目获2017年省“红十字‘救’在身边” 社会实践项目评选二等奖（图文）                                        </a>
                                     </h3>
-                                    <a class="picwraper" href="#">
-                                        <img class="list-cover lazy" src="images/bing-2.jpg">
-                                    </a>
                                     <div class="list-abstract text-muted">
                                     <p>我院红十字会申报项目“红色计划”获评为社会实践项目二等奖，获得省红十字会项目经费5000元。</p>
                                     </div>

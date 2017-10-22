@@ -33,7 +33,7 @@
 			<p>News Information</p>
 		</div>
 		<div class="right toppic-progress">
-			<span><a href="news.html" class="w-white">新闻动态</a></span>
+			<span><a href="news.php" class="w-white">新闻动态</a></span>
 			<i class=" am-icon-arrow-circle-right w-white"></i>
 			<span><a href="news_inform.php" class="w-white">新闻详情</a></span>
 		</div>
@@ -58,7 +58,7 @@
 
 
 
-<div class="am-u-sm-5 am-u-md-10 am-u-lg-8">
+<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
 <!--        <a href="#"><img src="Temp-images/ad2.png" class="am-img-responsive" width="100%"/></a>-->
 
 
@@ -113,27 +113,27 @@
                 </li>
                 <li class="am-g am-list-item-desced">
                     <div class=" am-u-sm-12">
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
+                        <div class="am-list-item-text">代码压缩和最小化。</div>
                     </div>
                 </li>
                 <li class="am-g am-list-item-desced">
                     <div class=" am-u-sm-12">
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
+                        <div class="am-list-item-text">了9个最好的JavaScript压缩工具将帮</div>
                     </div>
                 </li>
                 <li class="am-g am-list-item-desced">
                     <div class=" am-u-sm-12">
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
+                        <div class="am-list-item-text">代码收集了9个最好的JavaScript压缩工具将帮</div>
                     </div>
                 </li>
                 <li class="am-g am-list-item-desced">
                     <div class=" am-u-sm-12">
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
+                        <div class="am-list-item-text">代码压缩和最小化。在这里帮</div>
                     </div>
                 </li>
                 <li class="am-g am-list-item-desced">
                     <div class=" am-u-sm-12">
-                        <div class="am-list-item-text">代码压缩和最小化。在这里，我们为你收集了9个最好的JavaScript压缩工具将帮</div>
+                        <div class="am-list-item-text">代码压缩和最小化。在这帮</div>
                     </div>
                 </li>
             </ul>

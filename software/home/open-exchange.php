@@ -46,7 +46,7 @@
                 </li>
                 <li class="am-g am-list-item-desced am-list-item-thumbed am-list-item-thumb-left">
                     <div class=" am-u-sm-8">
-                        <h3 class="am-list-item-hd"><a href="achievement2.php">学术论坛</a></h3>
+                        <h3 class="am-list-item-hd"><a href="#">学术论坛</a></h3>
                     </div>
                 </li>
             </ul>
@@ -56,7 +56,7 @@
 		<div class="am-g am-container" style="margin-top: 50px;">
     		<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
     			<div>
-    				<div align="center"><h1>成果介绍</h1></div>
+    				<div><h1>学术会议</h1></div>
     				<hr data-am-widget="divider" style="" class="am-divider am-divider-dashed" />
     			</div>
     		</div>

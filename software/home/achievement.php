@@ -56,7 +56,7 @@
 		<div class="am-g am-container" style="margin-top: 50px;">
     		<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
     			<div>
-    				<div align="center"><h1>成果介绍</h1></div>
+    				<div><h1>成果介绍</h1></div>
     				<hr data-am-widget="divider" style="" class="am-divider am-divider-dashed" />
     			</div>
     		</div>

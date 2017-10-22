@@ -12,13 +12,14 @@
     <div class="panel-head" id="add"><strong><span class="icon-pencil-square-o"></span>添加管理员</strong></div>
 
     <div class="body-content">
-        <form class="form-x" method="post" action="admin_add_help.php">
+        <form class="form-x" method="post" action="admin_add_help.php" name="form1">
             <div class="form-group">
                 <div class="label">
                     <label>管理员账号：</label>
                 </div>
                 <div class="field">
-                    <input type="text" id="titleid" class="input w50" value="" name="adminId" data-validate="required:账号不能为空！请分配账号" />
+                    <input type="text" id="titleid" class="input w50" value="" name="adminId" placeholder="请输入管理员账号" data-validate="required:账号不能为空！请分配账号" />
+                    <font color="red">&nbsp;&nbsp;*</font>
                     <div class="tips"></div>
                 </div>
             </div>
@@ -27,17 +28,50 @@
                     <label>管理员密码：</label>
                 </div>
                 <div class="field">
-                    <input type="text" id="titleid" class="input w50" value="" name="adminPwd" data-validate="required:密码不能为空！请分配密码" />
+                    <input type="password" id="titleid" class="input w50" value="" name="adminPwd" placeholder="请输入管理员密码" data-validate="required:密码不能为空！请分配密码" />
+                    <font color="red">&nbsp;&nbsp;*</font>
                     <div class="tips"></div>
                 </div>
             </div>
-            <div class="field" style="text-align: center;">
-                <button class="button bg-main icon-check-square-o" type="reset" "> 重置</button>&nbsp;&nbsp;&nbsp;
-                <button class="button bg-main icon-check-square-o" type="submit" "> 添加</button>
+            <div class="form-group">
+                <div class="label">
+                    <label>请确认密码：</label>
+                </div>
+                <div class="field">
+                    <input type="password" id="surePwd" class="input w50"  name="surePwd" placeholder="请再次输入管理员密码" onblur="checkpsd2()" data-validate="required:密码不能为空！请确认密码" />
+                    <font color="red">&nbsp;&nbsp;*</font>
+                    <div class="tips" id="divpassword2"></div>
+                </div>
+            </div>
+            <div class="field" style="text-align: left; padding-left: 100px">
+                <button class="button bg-main " type="reset" id="reset"> 重置</button>&nbsp;&nbsp;&nbsp;
+                <button class="button bg-main icon-check-square-o" type="submit" id="add" onclick="return confirm('是否确认添加？')"> 添加</button>
             </div>
         </form>
     </div>
 </div>
+
+
+<script>
+    //验证确认密码
+    function checkpsd2(){
+        if(form1.adminPwd.value!=form1.surePwd.value) {
+            divpassword2.innerHTML='<font >您两次输入的密码不一样</font>';
+            alert("您两次输入的密码不一样");
+            $("#add").attr("disabled", true);
+        } else {
+            divpassword2.innerHTML='<font >输入正确</font>';
+        }
+    }
+
+    $(document).ready(function(){
+        $("#reset").click(function(){
+            $("#divpassword2").empty();
+        });
+    });
+</script>
+
+
 </body>
 </html>
 <!---->

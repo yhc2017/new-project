@@ -37,7 +37,11 @@
             <tr>
                <!--<td><?="<input type='checkbox' name='id[]'value='{$res['sys_adminId']}'/>" ?></td>-->
                 <td><?php echo   "{$res["sys_adminId"]}" ?></td>
-                <td><div class="button-group"> <a class="button border-red" href="admin_delect_help.php?id=<?=$res["sys_adminId"]?>" onclick="return del(1)"><span class="icon-trash-o"></span> 删除</a> </div></td>
+                <td><div class="button-group">
+                        <a class="button border-red" href="admin_delect_help.php?id=<?=$res["sys_adminId"]?>" onclick="return del()"><span class="icon-trash-o"></span> 删除</a>
+                        <a class="button border-red" href="admin_delect_help.php?resetid=<?=$res["sys_adminId"]?>" onclick="return reset()"><span class="icon-trash-o"></span> 重置密码</a>
+                    </div>
+                </td>
             </tr>
             <?php
         }
@@ -47,9 +51,22 @@
 </div>
 <script type="text/javascript">
 
-    function del(id){
+    function del(){
 //        alert("{$res['sys_adminId']}");
         if(confirm("您确定要删除吗?")){
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    function reset(){
+//        alert("{$res['sys_adminId']}");
+        if(confirm("您确定要重置密码吗?")){
+            alert("初始密码为：0000");
+            return true;
+        } else {
+            return false;
         }
     }
 
@@ -62,24 +79,24 @@
                 this.checked = true;
             }
         });
-    })
+    });
 
-    function DelSelect(){
-        var Checkbox=false;
-        $("input[name='id[]']").each(function(){
-            if (this.checked==true) {
-                Checkbox=true;
-            }
-        });
-        if (Checkbox){
-            var t=confirm("您确认要删除选中的内容吗？");
-            if (t==false) return false;
-        }
-        else{
-            alert("请选择您要删除的内容!");
-            return false;
-        }
-    }
+//    function DelSelect(){
+//        var Checkbox=false;
+//        $("input[name='id[]']").each(function(){
+//            if (this.checked==true) {
+//                Checkbox=true;
+//            }
+//        });
+//        if (Checkbox){
+//            var t=confirm("您确认要删除选中的内容吗？");
+//            if (t==false) return false;
+//        }
+//        else{
+//            alert("请选择您要删除的内容!");
+//            return false;
+//        }
+//    }
 
 </script>
 </body>

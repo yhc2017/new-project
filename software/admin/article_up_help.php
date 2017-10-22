@@ -14,7 +14,8 @@ $showtime = date("Y-m-d H:i:s");
 //$a_centUrl = "../public/article/".$newsTiele.".txt";
 if(isset($newsContent))
 {
-    mysqli_query($conn,"insert into article values(NULL ,'".$newsTiele."','', '','".$showtime."','','".$newsBelong."');");
+    session_start();
+    mysqli_query($conn,"insert into article values(NULL ,'".$newsTiele."','', '".$_SESSION['loginName']."','".$showtime."','','".$newsBelong."');");
 }
 echo $newsContent,$newsTiele,$preContent;
 //echo "上传成功";
@@ -29,4 +30,5 @@ mysqli_query($conn, "update article set a_centUrl = '".$a_centUrl."' where a_id 
 $myfile = fopen("../public/article/".iconv("UTF-8","GBK",$articlename).".txt", "w") or die("Unable to open file!");
 fwrite($myfile, $newsContent);
 fclose($myfile);
+
 ?>

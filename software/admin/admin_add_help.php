@@ -10,5 +10,5 @@ include "../public/conn.php";
 $id = $_POST['adminId'];
 $pwd = $_POST['adminPwd'];
 $hashPwd = password_hash($pwd, PASSWORD_DEFAULT);
-mysqli_query($conn,"insert into systemadmin VALUES ('".$id."', '".$hashPwd."');");
-echo "<script>alert('管理员".$id."添加成功!');window.location.href='admin_add.php';</script>";
+mysqli_query($conn,"insert into systemadmin VALUES ('".$id."', '".$hashPwd."',2);");
+echo "<script>alert('管理员".$id."添加成功!');window.location.href='admin_select.php';</script>";

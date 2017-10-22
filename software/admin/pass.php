@@ -1,4 +1,4 @@
-<!--修改会员密码-->
+<!--修改管理员密码-->
 <!DOCTYPE html>
 <html lang="zh-cn">
 <head>
@@ -14,7 +14,7 @@
 </head>
 <body>
 <div class="panel admin-panel">
-  <div class="panel-head"><strong><span class="icon-key"></span> 修改会员密码</strong></div>
+  <div class="panel-head"><strong><span class="icon-key"></span> 修改管理员密码</strong></div>
   <div class="body-content">
     <form method="post" class="form-x" action="">
       <div class="form-group">

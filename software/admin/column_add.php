@@ -1,10 +1,5 @@
-<?php
-/**
- *17/10/21
- * 栏目添加页面
- */
 
-?>
+<!--//栏目添加页面-->
 <html>
 <head>
     <link rel="stylesheet" href="css/pintuer.css">
@@ -18,82 +13,92 @@
 
     <div class="body-content">
 
-        <form method="post" class="form-x" action="column_add_help.php">
+        <form method="post" class="form-x" action="column_add_help.php" >
             <input class="hidden" name="a_id" value="...">
             <div class="form-group">
 
                 <div class="label">
-                    <label>栏目名称：</label>
+                    <label>栏目：</label>
                 </div>
                 <div class="field">
-                    <input id="title" type="text" class="input w50" value="" name="title"
-                           data-validate="required:请输入栏目名称"/>
-                </div>
-                <div class="label">
-                    <label>栏目链接：</label>
-                </div>
-                <div class="field">
-                    <input type="text" class="input w50" value="" name="url"/>
-                    <div class="tips">
-                        <button class="button bg-main icon-check-square-o" type="submit"> 添加根栏目</button>
+                <input id="title" type="text" class="input w50" value="" name="title" data-validate="required:请输入标题" />
                     </div>
-                </div>
+                    <div class="label">
+                        <label>栏目链接：</label>
+                    </div>
+                    <div class="field">
+                        <input type="text" class="input w50" value="" name="url" />  <div class="tips">
+                            <button class="button bg-main icon-check-square-o" type="submit"> 添加根栏目</button>
+                        </div>
+                    </div>
 
 
             </div>
+<!--            <div class="field">-->
+
+<!--            </div>-->
             <table class="table table-hover text-center">
                 <tr>
-                    <th width="10%">栏目ID</th>
-                    <th width="35%">父栏目名称</th>
-                    <th width="35%">栏目名称</th>
-                    <th width="20%">操作</th>
+                    <th width="40%">栏目ID</th>
+                    <th>父栏目id</th>
+                    <th width="40%">栏目名称</th>
+                    <th width="">操作</th>
                 </tr>
                 <?php
                 include "../public/conn.php";
-                $sql = mysqli_query($conn, "select * from menu;");
-                while ($res = mysqli_fetch_array($sql)) {
-                    $res["menu_id"];
-                    if($res['menu_sid']==0){
-                        $res['menu_sid']="一级";
-                    }
-                    else{
-                        $sql1=mysqli_query($conn,"select menu_name from menu where menu_id={$res['menu_sid']};");
-                        while($res1=mysqli_fetch_array($sql1)){
-                            $res['menu_sid']=$res1['menu_name'];
-                        }
-                    }
-//                    $res['menu_sid'];
+                $sql = mysqli_query($conn,"select * from menu;");
+                while($res = mysqli_fetch_array($sql)) {
+                    $id=$res["menu_id"];
+                    $res['menu_sid'];
                     $res["menu_name"];
                     ?>
                     <tr>
-                        <td><?= $res["menu_id"]; ?></td>
-                        <td><?= $res["menu_sid"]; ?></td>
-                        <td><?= $res["menu_name"]; ?></td>
+                        <td><?=$res["menu_id"];?></td>
+                        <td><?=$res["menu_sid"];?></td>
+                        <td><?=$res["menu_name"];?></td>
                         <td>
                             <div class="button-group">
-                                <input class="button border-main" value=" 添加子栏目" type="button"
-                                       onclick="addsColumn(<?= $res["menu_id"]; ?>)">
+                                <input class="button border-main" value=" 添加子栏目" type="button" onclick="addsColumn(<?=$res["menu_id"];?>)">
+<!--                                <a class="button border-main" href="column_add_help.php?id=--><?//=$res["menu_id"]?><!--" onclick="return decide_title()"> <span class="icon-edit"></span> 添加子栏目</a>-->
+<!--                                <a class="button border-red" href="javascript:void(0)" onclick="return del(1,1)"><span class="icon-trash-o"></span> 删除</a>-->
                             </div>
                         </td>
                     </tr>
-                <?php } ?>
+                <?php }?>
 
             </table>
         </form>
     </div>
 </div>
 <script>
-    //判断并提交到php处理
-    function addsColumn(id) {
-        var name = document.getElementById('title').value;
-        if (name == "") {
-            alert("请输入栏目名称！");
-            window.location="column_add.php";
+//    var name=document.getElementById('title').value;
+//    alert(document.getElementById['titless'].value);
+//    function decide_title(){
+////        alert(document.getElementById('title').value=="");
+//        if(document.getElementById('title').value==""){
+//            alert("请输入栏目名");
+//           return false;
+//      }
+//        return true;
+//   }
+//   function  getName(){
+//    return document.getElementById('title').value;
+//}
+//判断并提交到php处理
+    function addsColumn(id){
+        var name=document.getElementById('title').value;
+        if (name==""){
+            alert("请输入标题");
         }
         else {
-            window.location = "column_add_help.php?id=" + id + " & name=" + name;
+            window.location="column_add_help.php?id="+id+" & name="+name;
         }
-    }
+//        alert(name);
+//        alert("column_add_help.php?id="+id+" & name="+name);
+//        alert("column_help.php?id="+id);
+//        window.location="column_add_help.php?id="+id;
+
+}
 </script>
 </body>
 </html>

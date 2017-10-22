@@ -65,19 +65,20 @@
 
         var ll = <?php echo $_GET['aa']?>;
 
-        $.post("article_up_help.php",{content:jj,title:kk,belong:ll},function(data){
-            if(data != "") {
-                alert("上传成功！");
-                window.location.href="article_column.php";
+        if(kk != "") {
+            $.post("article_up_help.php",{content:jj,title:kk,belong:ll},function(data){
+                if(data != "") {
+                    alert("上传成功！");
+                    window.location.href="article_column.php";
 //                alert(data);
-            } else {
-                alert("发布失败！");
-            }
+                } else {
+                    alert("发布失败！");
+                }
+            });
+        } else {
+            alert("文章标题不能为空！");
+        }
 
-
-//
-//            alert("Data Loaded: " + data);
-        });
     });
 </script>
 

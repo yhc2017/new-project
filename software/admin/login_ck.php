@@ -15,6 +15,7 @@ if($info==false) {
         echo "<script>alert('验证码错误!');window.location.href='login.php';</script>";
     } else{
         if(password_verify($pwd,$info['sys_adminPwd'])){
+            $_SESSION['loginName']=$info['sys_adminId'];
             header("location:index.php");
         } else {
             echo "<script language='javascript'>alert('密码输入错误！');history.back();</script>";

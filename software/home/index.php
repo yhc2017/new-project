@@ -141,36 +141,36 @@
                         <li>
                             <a href="index.php">首页</a></li>
                         <li class="am-parent">
-                            <a href="##" class="">研究所概况</a>
+                            <a href="general-profile.php?id=1" class="">研究所概况</a>
                             <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
                                 <li class="">
-                                    <a href="##" class="">研究所介绍</a>
+                                    <a href="general-profile.php?id=1" class="">研究所介绍</a>
                                 </li>
                                 <li class="">
-                                    <a href="##" class="">研究内容</a>
+                                    <a href="general-profile.php?id=2" class="">研究内容</a>
                                 </li>
                                 <li class="">
-                                    <a href="##" class="">课题项目</a>
+                                    <a href="general-profile.php?id=3" class="">课题项目</a>
                                 </li>
                                 <li class="">
-                                    <a href="##" class="">专家介绍</a>
+                                    <a href="general-profile.php?id=4" class="">专家介绍</a>
                                 </li>
                                 <li class="">
-                                    <a href="##" class="">联系我们</a>
+                                    <a href="general-profile.php?id=5" class="">联系我们</a>
                                 </li>
                             </ul>
                         </li>
                         <li class="am-parent">
-                            <a href="#c3" class="">新闻动态</a>
+                            <a href="news.php" class="">新闻动态</a>
                             <ul class="am-menu-sub am-collapse  am-avg-sm-3 ">
                                 <li class="">
-                                    <a href="##" class="">研究所新闻</a>
+                                    <a href="news.php" class="">研究所新闻</a>
                                 </li>
                                 <li class="">
-                                    <a href="##" class="">学院新闻</a>
+                                    <a href="news-2.php" class="">学院新闻</a>
                                 </li>
                                 <li class="">
-                                    <a href="##" class="">系内热点</a>
+                                    <a href="news-3.php" class="">系内热点</a>
                                 </li>
                             </ul>
                         </li>

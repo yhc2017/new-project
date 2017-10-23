@@ -42,13 +42,13 @@
         <div class="path am-u-sm-12">
         	<span>您现在的位置：</span>
             <a href="#">首页-</a>
-            <a href="#">新闻动态-研究所要闻</a> 
+            <a href="#">新闻动态-学院新闻</a> 
         </div>
         
         <div class="am-g">
             <div class="am-u-sm-12 am-u-md-8 news_text_right" style="margin-top:20px;">
             	<div class="am-article-hd">
-					<h3 class="am-article-title" style="color: #330352; margin: 8px;">|研究所要闻</h3>
+					<h3 class="am-article-title" style="color: #330352; margin: 8px;">|学院新闻</h3>
 				</div>
                 <!-- 文档列表 -->
                 <div class="panel news_text_right_context am-kai">

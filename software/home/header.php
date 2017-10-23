@@ -1,7 +1,7 @@
 <header class="am-topbar header">
 	<div class="am-container-1">
 		<div class="left hw-logo">
-			<img class=" logo" src="img/logo.png"></img>
+			<img class="logo " src="images/huaruan.jpg" style="font-family: Helvetica Neue;">软件生态与人工智能研究所</img>
 		</div>
 		<button class="am-topbar-btn am-topbar-toggle am-btn am-btn-sm am-btn-success am-show-sm-only" data-am-collapse="{target: '#doc-topbar-collapse'}"><span class="am-sr-only">导航切换</span> <span
   class="am-icon-bars"></span></button>
@@ -14,7 +14,7 @@
 						<a href="index.php">首页</a>
 					</li>
 					<li>
-						<a href="general-profile.php">研究所概况</a>
+						<a href="general-profile.php?id=1">研究所概况</a>
 					</li>
 					<li>
 						<a href="news.php">新闻动态 </a>

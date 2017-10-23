@@ -119,33 +119,6 @@
         echo '<ul class="am-nav am-nav-pills am-nav-justify">'.procHtml($tree).'</ul>';
 
         ?>
-<!--        这里下面是php输出的结果-->
-<!--        <ul class="am-nav am-nav-pills am-nav-justify">-->
-<!--            <li class="menu-item"><a href='index.php'>首页</a></li>-->
-<!--            <li><a href='general-profile.php'>研究所概况</a>-->
-<!--                <ul class="sub-menu">-->
-<!--                    <li class="menu-item"><a href='general-profile.php'>研究所介绍</a></li>-->
-<!--                    <li class="menu-item"><a href='general-profile.php'>研究内容</a></li>-->
-<!--                    <li class="menu-item"><a href='general-profile.php'>课题项目</a></li>-->
-<!--                    <li class="menu-item"><a href='team.php'>专家介绍</a></li>-->
-<!--                    <li class="menu-item"><a href='about-us.php'>联系我们</a></li>-->
-<!--                </ul>-->
-<!--            </li>-->
-<!--            <li><a href='news.php'>新闻动态</a>-->
-<!--                <ul class="sub-menu">-->
-<!--                    <li class="menu-item"><a href='news.php'>研究所新闻</a></li>-->
-<!--                    <li class="menu-item"><a href='news.php'>学院新闻</a></li>-->
-<!--                    <li class="menu-item"><a href='news.php'>系内热点</a></li>-->
-<!--                </ul>-->
-<!--            </li>-->
-<!--            <li><a href=''>研究成果</a>-->
-<!--                <ul class="sub-menu">-->
-<!--                    <li class="menu-item"><a href=''>成果介绍</a></li>-->
-<!--                </ul>-->
-<!--            </li>-->
-<!--            <li class="menu-item"><a href=''>开发交流</a></li>-->
-<!--            <li class="menu-item"><a href=''>技术前沿</a></li>-->
-<!--        </ul>-->
     </div>
 </div>
 <!--nav end-->
@@ -213,7 +186,7 @@
                             </ul>
                         </li>
                         <li class="am-parent">
-                            <a href="##" class="">开发交流</a>
+                            <a href="general-profile.php" class="">开发交流</a>
                             <ul class="am-menu-sub am-collapse  am-avg-sm-2 ">
                                 <li class="">
                                     <a href="##" class="">学术会议</a>
@@ -301,7 +274,7 @@
                 </a>
             </div>
             <div class="news-content">
-                <div class="am-u-sm-10 am-u-md-10 am-u-lg-4">
+                <div class="am-u-sm-0 am-u-md-0 am-u-lg-4">
                     <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
                         <h2 class="am-titlebar-title ">
                             研究所要闻
@@ -426,7 +399,7 @@
 ">
 <div class="customer  am-container-1">
     <div class="part-title">
-        <a href="team.html">
+        <a href="general-profile.php">
             <i class="am-icon-users part-title-i"></i>
             <span class="part-title-span">专家介绍</span>
             <p>Expert introduction</p>
@@ -563,7 +536,6 @@
         $("#topface li:eq(0) p").html(temp_p);
     });
 </script>
-<script src="js/public.js"></script>
 
 
 <?php include("footer_dome.php"); ?>

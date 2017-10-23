@@ -56,11 +56,10 @@
 		<div class="am-g am-container" style="margin-top: 50px;">
     		<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
     			<div>
-    				<div><h1>成果展示</h1></div>
-    				<hr data-am-widget="divider" style="" class="am-divider am-divider-dashed" />
-    				<div>
-    					
-    				</div>
+    				<div class="am-article-hd">
+						<h1 class="am-article-title" style="color: #330352;">成果展示</h1>
+						<p class="am-article-meta" style="border-bottom: 1px solid #555555;">achievement exhibition</p>
+					</div>
     			</div>
     		</div>
     	</div>

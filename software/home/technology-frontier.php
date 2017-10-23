@@ -53,14 +53,73 @@
         </div>
        </div>-->
 		
-		<div class="am-g am-container" style="margin-top: 50px;">
-    		<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
-    			<div>
-    				<div align="center"><h1>成果介绍</h1></div>
-    				<hr data-am-widget="divider" style="" class="am-divider am-divider-dashed" />
-    			</div>
-    		</div>
-    	</div>
+		<div style="margin: 10px;">
+						<div class="am-article-hd" style="text-align: center;">
+							<h1 class="am-article-title" style="color: #330352;">技术前沿</h1>
+							<p class="am-article-meta" style="border-bottom: 1px solid #555555;">Cutting edge of technology</p>
+
+						</div>
+						<article class="am-article" style="margin-left: 100px; margin-right: 100px;">
+
+							<div>
+								<div class="left am-u-sm-12 am-u-md-12 am-u-lg-6 " style="margin-top: 50px;">
+									<table>
+										<td>
+											<div class="am-article-hd">
+												<h1 class="am-article-title"><img src="images/icon1.png" ></h1>
+
+											</div>
+										</td>
+										<td>
+
+										</td>
+										<td>
+											<div class="am-article-bd">
+												<p style="margin-left: 20px;">目前国内规模最大、架构最完整的大数据产学研一体化机构,由国内大数据领域领军专家周涛教授组建并担任中心主任,致力于构建大数据行业的“贝尔实验室”</p>
+											</div>
+										</td>
+									</table>
+									<table style="margin-top: 20px;">
+										<td>
+											<div class="am-article-hd">
+												<h1 class="am-article-title"><img src="images/icon2.png" ></h1>
+
+											</div>
+										</td>
+										<td>
+
+										</td>
+										<td>
+											<div class="am-article-bd">
+												<p style="margin-left: 20px;">作为校级研究中心，拥有国家级人才12名，包括 2名长江学者，8名千人计划和1名万人计划获得者，中心成员曾获得1项国家自然科学二等奖，2项国家科技进步二等奖，11项省部级科技奖励一等奖。</p>
+											</div>
+										</td>
+									</table>
+									<table style="margin-top: 20px;">
+										<td>
+											<div class="am-article-hd">
+												<h1 class="am-article-title"><img src="images/icon3.png" ></h1>
+
+											</div>
+										</td>
+										<td>
+
+										</td>
+										<td>
+											<div class="am-article-bd">
+												<p style="margin-left: 20px;">定位为连接政府、企业、高校、研究院所、资本和创业型企业的纽带和中枢，致力建设成为在学科、学术、技术、产业、机制五方面均在国内具有引领地位的大型创新平台。</p>
+											</div>
+										</td>
+									</table>
+
+								</div>
+								<div class="right am-u-sm-12 am-u-md-12 am-u-lg-5 " style="margin-top: 100px;">
+									<img src="images/img04.jpg" style="width: 350px;height: 250px;" />
+								</div>
+								<div class="clear"></div>
+							</div>
+
+					</div>
 	
 
 		<?php include ("footer_dome.php");?>

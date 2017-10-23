@@ -31,7 +31,7 @@
 			</div>
 		</div>
 
-		<div class="am-u-sm-0 am-u-md-0 am-u-lg-2" style="margin-left: 100px;">
+		<div class="am-u-sm-0 am-u-md-0 am-u-lg-2" style="margin-left: 50px;">
         <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default">
             <h2 class="am-titlebar-title ">
                 前往
@@ -54,10 +54,38 @@
        </div>
 		
 		<div class="am-g am-container" style="margin-top: 50px;">
-    		<div class="am-u-sm-5 am-u-md-10 am-u-lg-9">
+    		<div class="am-u-sm-5 am-u-md-10 am-u-lg-10">
     			<div>
-    				<div><h1>成果介绍</h1></div>
-    				<hr data-am-widget="divider" style="" class="am-divider am-divider-dashed" />
+    				<div class="am-article-hd">
+						<h1 class="am-article-title" style="color: #330352;">成果介绍</h1>
+						<p class="am-article-meta" style="border-bottom: 1px solid #555555;">introduction to achievements</p>
+					</div>
+    				<div  style="background: #0000CC; margin-top: 20px;">
+						<ul class="solutions-content-ul">
+							<a href="#">
+								<li class="am-u-sm-12 am-u-md-6 am-u-lg-12">
+									<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
+										<img src="images/thumb_320_224_20150520034101936.png" />
+									</div>
+									<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
+										<h5>复杂网络链路可预测性</h5>
+										<p>链路预测（Link Prediction）是网络科学中一个基础性的重要问题。</p>
+									</div>
+							</a>
+							</li>
+							<li class="am-u-sm-12 am-u-md-6 am-u-lg-12">
+								<a href="#">
+									<div class="am-u-sm-12 am-u-md-12 am-u-lg-3 solution-tabs-img">
+										<img src="images/20150520033804497.png" />
+									</div>
+									<div class="am-u-sm-12 am-u-md-12 am-u-lg-9 solution-tabs-words">
+										<h5>多路数据分析中的贝叶斯非参方法</h5>
+										<p>科学进步和经济发展的过程中总是伴随着海量的、动态的、结构复杂的数据的产生，人们称之为大数据。大数据是数字化生存时代的新型战略资源，是驱动创新的重要因素，正在改变人类的生产和生活方式。
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
     			</div>
     		</div>
     	</div>

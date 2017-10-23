@@ -1,3 +1,10 @@
+			<?php
+				$i = 1;
+				if(is_array($_GET)&&count($_GET)>0){
+					$i = $_GET["id"];
+					$class = "am-active";
+				}
+	?>
 <!DOCTYPE html>
 <html>
 
@@ -38,19 +45,19 @@
 		<div data-am-widget="tabs" class="am-tabs am-tabs-d2" style="background: #FFFFFF;">
 
 			<ul class="am-tabs-nav am-cf solutions-tabs-ul ">
-				<li class="am-active solutions-tabs-ul-li1">
+				<li class="<?php if($i == 1){ echo $class;} ?> solutions-tabs-ul-li1">
 					<a href="[data-tab-panel-0]"><i class=" am-icon-arrows-v"></i><span>研究所介绍</span></a>
 				</li>
-				<li class="solutions-tabs-ul-li2">
+				<li class="<?php if($i == 2){ echo $class;} ?> solutions-tabs-ul-li2">
 					<a href="[data-tab-panel-1]"><i class=" am-icon-arrows-h"></i><span>研究内容</span></a>
 				</li>
-				<li class="solutions-tabs-ul-li3">
+				<li class="<?php if($i == 3){ echo $class;} ?> solutions-tabs-ul-li3">
 					<a href="[data-tab-panel-2]"><i class=" am-icon-backward"></i><span>课题项目</span></a>
 				</li>
-				<li class="solutions-tabs-ul-li4">
+				<li class="<?php if($i == 4){ echo $class;} ?> solutions-tabs-ul-li4">
 					<a href="[data-tab-panel-3]"><i class=" am-icon-bar-chart"></i><span>专家介绍</span></a>
 				</li>
-				<li class="solutions-tabs-ul-li5">
+				<li class="<?php if($i == 5){ echo $class;} ?> solutions-tabs-ul-li5">
 					<a href="[data-tab-panel-4]"><i class=" am-icon-bar-chart-o"></i><span>联系我们</span></a>
 				</li>
 			</ul>

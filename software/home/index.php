@@ -230,10 +230,10 @@
 <div class="am-container-1">
     <div class="solutions part-all">
         <div class="part-title">
-            <a href="general-profile.html">
+            <a href="general-profile.php">
                 <i class="am-icon-lightbulb-o part-title-i"></i>
-                <span class="part-title-span">中心概况</span>
-                <p>GENERAL PROFILE</p>
+                <span class="part-title-span">研究所介绍</span>
+                <p>Research institute</p>
             </a>
         </div>
         <ul class="am-g part-content solutions-content">

@@ -1,4 +1,9 @@
-<?php include "../public/conn.php"; ?>
+<?php include "../public/conn.php";
+
+$sql1 = mysqli_query($conn,"SELECT profile1,profile2,profile3 FROM ins_profile;");
+$res1 = mysqli_fetch_array($sql1);
+
+?>
 <!DOCTYPE html>
 <html>
 <head lang="en">
@@ -241,22 +246,19 @@
                 <!--<i class="am-icon-safari solution-circle"></i>-->
                 <img class="solution-circle" src="images/icon1.png"/>
                 <!--<span class="solutions-title">网站、移动网站</span>-->
-                <p class="solutions-way">目前国内规模最大、架构最完整的大数据产学研一 体化机构,由国内大数据领域领军专家周涛教授组建并担任中心主任,致力于构建大数据行业的“贝尔实验室”</p>
+                <p><?=$res1['profile1'];?></p>
             </li>
             <li class="am-u-sm-6 am-u-md-4 am-u-lg-4">
                 <!--<i class="am-icon-magic solution-circle"></i>-->
                 <img class="solution-circle" src="images/icon2.png"/>
                 <!--<span class="solutions-title">网站、移动网站</span>-->
-                <p class="solutions-way">作为校级研究中心，拥有国家级人才12名，包括 2
-                    名长江学者，8名千人计划和1名万人计划获得者，中心成员曾获得1项国家自然科学二等奖，2项国家科技进步二等奖，11项省部级科技奖励一等奖。
-                </p>
+                <p><?=$res1['profile2'];?></p>
             </li>
             <li class="am-u-sm-6 am-u-md-4 am-u-lg-4">
                 <!--<i class="am-icon-phone solution-circle"></i>-->
                 <img class="solution-circle" src="images/icon3.png"/>
                 <!--<span class="solutions-title">网站、移动网站</span>-->
-                <p class="solutions-way">定位为连接政府、企业、高校、研究院所、资本和
-                    创业型企业的纽带和中枢，致力建设成为在学科、学术、技术、产业、机制五方面均在国内具有引领地位的大型创新平台。</p>
+                <p><?=$res1['profile3'];?></p>
             </li>
         </ul>
 

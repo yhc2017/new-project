@@ -34,7 +34,7 @@
 <!--        <li><a href="article_up.php?aa=1" target="right"><span class="icon-caret-right"></span>上传学院要闻文章</a></li>-->
 <!--        <li><a href="article_up.php?aa=2" target="right"><span class="icon-caret-right"></span>上传系内热点文章</a></li>-->
 <!--        <li><a href="article_up.php?aa=3" target="right"><span class="icon-caret-right"></span>上传校园快讯文章</a></li>-->
-<!--<!--        <li><a href="article_admin.php" target="right"><span class="icon-caret-right"></span>文章管理</a></li>-->-->
+<!--<!--        <li><a href="article_admin.php" target="right"><span class="icon-caret-right"></span>文章管理</a></li>-->
 <!--        <li><a href="article_column.php" target="right"><span class="icon-caret-right"></span>各栏目文章管理</a></li>-->
 <!--    </ul>-->
 
@@ -63,6 +63,7 @@
     <h2><span class="icon-pencil-square-o"></span>首页</h2>
     <ul>
         <li><a href="footer_edit.php" target="right"><span class="icon-caret-right"></span>编辑脚部内容</a></li>
+        <li><a href="profile_edit.php" target="right"><span class="icon-caret-right"></span>编辑研究所概况内容</a></li>
 <!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>查看管理员</a></li>-->
 <!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>修改管理员</a></li>-->
     </ul>
@@ -105,9 +106,9 @@
 
     <h2><span class="icon-pencil-square-o"></span>技术前沿</h2>
     <ul>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>添加管理员</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>查看管理员</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>修改管理员</a></li>
+<!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>添加管理员</a></li>-->
+<!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>查看管理员</a></li>-->
+<!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>修改管理员</a></li>-->
     </ul>
 
 <!--    对应导航栏六大板块end-->
@@ -138,7 +139,7 @@ $(function(){
   <iframe scrolling="auto" rameborder="0" src="article_up.php?aa=1" name="right" width="100%" height="100%"></iframe>
 </div>
 <!--<div style="text-align:center;">-->
-<!--<!--<p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>-->-->
+<!--<!--<p>来源:<a href="http://www.mycodes.net/" target="_blank">源码之家</a></p>-->
 <!--</div>-->
 </body>
 </html>

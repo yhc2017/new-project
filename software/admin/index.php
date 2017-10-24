@@ -63,17 +63,18 @@
     <h2><span class="icon-pencil-square-o"></span>首页</h2>
     <ul>
         <li><a href="footer_edit.php" target="right"><span class="icon-caret-right"></span>编辑脚部内容</a></li>
-        <li><a href="profile_edit.php" target="right"><span class="icon-caret-right"></span>编辑研究所概况内容</a></li>
+<!--        <li><a href="profile_edit.php" target="right"><span class="icon-caret-right"></span>编辑研究所概况内容</a></li>-->
 <!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>查看管理员</a></li>-->
 <!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>修改管理员</a></li>-->
     </ul>
 
     <h2><span class="icon-pencil-square-o"></span>研究所概况</h2>
     <ul>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>研究所介绍</a></li>
+<!--        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>研究所介绍</a></li>-->
+        <li><a href="profile_edit.php" target="right"><span class="icon-caret-right"></span>研究所介绍</a></li>
         <li><a href="no.php" target="right"><span class="icon-caret-right"></span>研究内容</a></li>
         <li><a href="no.php" target="right"><span class="icon-caret-right"></span>课题项目</a></li>
-        <li><a href="no.php" target="right"><span class="icon-caret-right"></span>专家介绍</a></li>
+        <li><a href="team_edit.php" target="right"><span class="icon-caret-right"></span>专家介绍</a></li>
         <li><a href="no.php" target="right"><span class="icon-caret-right"></span>联系我们</a></li>
     </ul>
 

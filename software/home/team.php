@@ -1,9 +1,10 @@
+<?php include "../public/conn.php"?>
 <!DOCTYPE html>
 <html>
 
 	<head lang="en">
 		<meta charset="UTF-8">
-		<title>人才队伍</title>
+		<title>研究人才队伍</title>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1.0, user-scalable=0,user-scalable=no">
 		<meta name="format-detection" content="telephone=no">
@@ -64,9 +65,22 @@
 						        </tr>
 						    </thead>
 						    <tbody>
-						        <tr>
-						            <td><a>张屹</a></td>
-						        </tr>
+                            <tr>
+                                    <?php
+                                    $sql = mysqli_query($conn, "select team_name from ins_team where team_level='主要负责人';");
+
+                                    while ($res = mysqli_fetch_array($sql)) {
+                                        $res["team_name"];
+                                        ?>
+
+                                        <td><a href="#"><?=$res["team_name"]?></a></td>
+
+                                        <?php
+                                    }
+                                    ?>
+                            </tr>
+
+
 						        
 						    </tbody>
 						</table>

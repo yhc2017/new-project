@@ -401,7 +401,7 @@ $res1 = mysqli_fetch_array($sql1);
 ">
 <div class="customer  am-container-1">
     <div class="part-title">
-        <a href="general-profile.php">
+        <a href="team.php">
             <i class="am-icon-users part-title-i"></i>
             <span class="part-title-span">专家介绍</span>
             <p>Expert introduction</p>
